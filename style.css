@@ -220,6 +220,8 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.037);
 }
 
+
+
 span {
     background: linear-gradient(150deg, #ff2600, #ff009d);
     text-shadow: none;
@@ -355,9 +357,23 @@ button:active {
 }
 /********************************************************************************************************************************************************************/
 .item6 {
-    background-color: violet;
     grid-area: n6;
 }
+
+#proyects  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+}
+
+.bx-code-alt {
+    position: absolute;
+    font-size: 200%;
+    top: 10%;
+    left: 75%;
+    color:  #ff009d;
+}
+
 /********************************************************************************************************************************************************************/
 .item7 {
     background-color: tomato;
@@ -365,14 +381,101 @@ button:active {
 }
 /********************************************************************************************************************************************************************/
 .item8 {
-    background-color: rgb(0, 130, 76);
     grid-area: n8;
+}
+
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 200%;
+    top: 10%;
+    left: 75%;
+    color:  #ff009d;
 }
 /********************************************************************************************************************************************************************/
 .item9 {
-    background-color: rgb(132, 112, 0);
     grid-area: n9;
 }
+
+a {
+    text-decoration: none;
+}
+
+.social-links,.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 17%;
+  position: relative;
+}
+
+.bxl-instagram, .bxl-twitter, .bxl-github, .bxl-youtube, .bxl-twitch, .bxl-discord {
+    position: absolute;
+    left: 13%;
+    font-size: 120%;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ff009d;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: #333;
+  margin: 5px;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+#social_red {
+    position: relative;
+    font-size: 15px;
+    left: 15%;
+}
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+}
+  
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 5px;
+}
+  
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+  
+.social-btn:hover span {
+  padding: 2px;
+  width: 80px;
+}
+  
+#twitter svg {
+  fill: #1da1f2;
+}
+  
+#instagram svg {
+  fill: #0e76a8;
+}
+  
+#github {
+  fill: #333;
+}
+  
+
 
 /********************************************************************************************************************************************************************/
 /********************************************************************************************************************************************************************/
@@ -650,6 +753,24 @@ button:active {
         left: 80%;
         top: 20%;
     }
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 90%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 150%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 1300px) and (max-width: 1350px) {
@@ -694,6 +815,39 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 165%;
+        top: 12%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 90%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 150%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 1250px) and (max-width: 1300px) {
@@ -797,6 +951,39 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 165%;
+        top: 12%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 85%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 130%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 1200px) and (max-width: 1250px) {
@@ -887,6 +1074,39 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 145%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 85%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 130%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 1150px) and (max-width: 1200px) {
@@ -995,6 +1215,39 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 145%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 85%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 130%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 1100px) and (max-width: 1150px) {
@@ -1091,6 +1344,39 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 145%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 85%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 130%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 1000px) and (max-width: 1100px) {
@@ -1227,6 +1513,39 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 135%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 26%;
+        font-size: 75%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 950px) and (max-width: 1000px) {
@@ -1291,6 +1610,40 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 85%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 135%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 26%;
+    font-size: 75%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 120%;
+    top: 20%;
+    left: 78%;
+    color:  #ff009d;
+}
+/*************************************************************************/
 }
 
 @media (min-width: 900px) and (max-width: 950px) {
@@ -1355,6 +1708,39 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 85%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 135%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 26%;
+        font-size: 75%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 850px) and (max-width: 900px) {
@@ -1370,8 +1756,8 @@ button:active {
         "n3 n3 n3 n3 n3 n3"
         "n3 n3 n3 n3 n3 n3"
         "n5 n5 n5 n4 n4 n4"
-        "n6 n6 n9 n7 n7 n7"
-        "n8 n8 n9 n7 n7 n7";
+        "n6 n6 n6 n7 n7 n7"
+        "n8 n8 n8 n7 n7 n7";
     }
 
 
@@ -1419,6 +1805,56 @@ button:active {
         font-size: 140%;
         left: 80%;
         top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 80%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 125%;
+        top: 22%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 26%;
+        font-size: 70%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+    
+    .item9 {
+        grid-area: n9;
+        background: transparent;
+        border: transparent;
+    }
+
+    .social-btn {
+        height: 0px;
+        width: 0px;
+    }
+
+    .bxl-instagram, .bxl-twitter, .bxl-github, .bxl-youtube, .bxl-twitch, .bxl-discord {
+        position: absolute;
+        left: 13%;
+        font-size: 0%;
     }
 }
 
@@ -1435,8 +1871,8 @@ button:active {
         "n3 n3 n3 n3 n3 n3"
         "n3 n3 n3 n3 n3 n3"
         "n5 n5 n5 n4 n4 n4"
-        "n6 n6 n9 n7 n7 n7"
-        "n8 n8 n9 n7 n7 n7";
+        "n6 n6 n6 n7 n7 n7"
+        "n8 n8 n8 n7 n7 n7";
     }
 
 
@@ -1485,6 +1921,56 @@ button:active {
         left: 80%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 75%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 125%;
+        top: 22%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 26%;
+        font-size: 70%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+    
+    .item9 {
+        grid-area: n9;
+        background: transparent;
+        border: transparent;
+    }
+
+    .social-btn {
+        height: 0px;
+        width: 0px;
+    }
+
+    .bxl-instagram, .bxl-twitter, .bxl-github, .bxl-youtube, .bxl-twitch, .bxl-discord {
+        position: absolute;
+        left: 13%;
+        font-size: 0%;
+    }
 }
 
 @media (min-width: 750px) and (max-width: 800px) {
@@ -1500,8 +1986,8 @@ button:active {
         "n3 n3 n3 n3 n3 n3"
         "n3 n3 n3 n3 n3 n3"
         "n5 n5 n5 n4 n4 n4"
-        "n6 n6 n9 n7 n7 n7"
-        "n8 n8 n9 n7 n7 n7";
+        "n6 n6 n6 n7 n7 n7"
+        "n8 n8 n8 n7 n7 n7";
     }
 
 
@@ -1549,6 +2035,56 @@ button:active {
         font-size: 120%;
         left: 75%;
         top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 75%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 115%;
+        top: 22%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 30%;
+        font-size: 60%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+    
+    .item9 {
+        grid-area: n9;
+        background: transparent;
+        border: transparent;
+    }
+
+    .social-btn {
+        height: 0px;
+        width: 0px;
+    }
+
+    .bxl-instagram, .bxl-twitter, .bxl-github, .bxl-youtube, .bxl-twitch, .bxl-discord {
+        position: absolute;
+        left: 13%;
+        font-size: 0%;
     }
 }
 
@@ -1615,6 +2151,39 @@ button:active {
         left: 75%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 65%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 115%;
+        top: 20%;
+        left: 75%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 30%;
+        font-size: 60%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 675px) and (max-width: 700px) {
@@ -1715,6 +2284,39 @@ button:active {
         left: 75%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 21%;
+        font-size: 80%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 80%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 650px) and (max-width: 675px) {
@@ -1816,6 +2418,39 @@ button:active {
         left: 75%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 21%;
+        font-size: 80%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 75%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 600px) and (max-width: 650px) {
@@ -1913,6 +2548,39 @@ button:active {
         left: 75%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 21%;
+        font-size: 80%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 75%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 575px) and (max-width: 600px) {
@@ -2013,6 +2681,39 @@ button:active {
         left: 75%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 75%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 23%;
+    font-size: 65%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 110%;
+    top: 18%;
+    left: 78%;
+    color:  #ff009d;
+}
+/*************************************************************************/
 }
 
 @media (min-width: 550px) and (max-width: 575px) {
@@ -2112,6 +2813,40 @@ button:active {
         left: 75%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 75%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 65%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 500px) and (max-width: 550px) {
@@ -2210,6 +2945,40 @@ button:active {
         left: 75%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 70%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 65%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 475px) and (max-width: 500px) {
@@ -2309,6 +3078,40 @@ button:active {
         left: 75%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 25%;
+        font-size: 65%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 30%;
+        font-size: 54%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 73%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 450px) and (max-width: 475px) {
@@ -2393,6 +3196,7 @@ button:active {
     .bxs-user {
         font-size: 180%;
         left: 25%;
+        top: 0%;
     }
 
     .bx-bookmarks {
@@ -2400,6 +3204,40 @@ button:active {
         left: 33%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 8%;
+        left: 30%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 30%;
+        font-size: 50%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 17%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 400px) and (max-width: 450px) {
@@ -2483,14 +3321,48 @@ button:active {
 
     .bxs-user {
         font-size: 180%;
-        left: 20%;
+        left: 25%;
     }
 
     .bx-bookmarks {
         font-size: 120%;
-        left: 30%;
+        left: 33%;
         top: 15%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 8%;
+        left: 26%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 150%;
+        top:10%;
+        left: 35%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 376px) and (max-width: 400px) {
@@ -2579,9 +3451,43 @@ button:active {
 
     .bx-bookmarks {
         font-size: 120%;
-        left: 23%;
-        top: 20%;
+        left: 25%;
+        top: 18%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 8%;
+        left: 17%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 25%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }
 
 @media (min-width: 350px) and (max-width: 375px) {
@@ -2669,9 +3575,43 @@ button:active {
 
     .bx-bookmarks {
         font-size: 120%;
-        left: 20%;
+        left: 24%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 15%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+    font-size: 0%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 120%;
+    top: 20%;
+    left: 22%;
+    color:  #ff009d;
+}
+/*************************************************************************/
 }
 
 @media (min-width: 300px) and (max-width: 350px) {
@@ -2754,7 +3694,7 @@ button:active {
 
     .bxs-user {
         font-size: 180%;
-        left: 25%;
+        left: 30%;
     }
 
     .bx-bookmarks {
@@ -2762,6 +3702,40 @@ button:active {
         left: 15%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 35%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+    font-size: 0%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 120%;
+    top: 20%;
+    left: 20%;
+    color:  #ff009d;
+}
+/*************************************************************************/
 }
 
 @media (min-width: 272px) and (max-width: 300px) {
@@ -2852,6 +3826,39 @@ button:active {
         left: 10%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 27%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+    font-size: 0%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 110%;
+    top: 23%;
+    left: 16%;
+    color:  #ff009d;
+}
+/*************************************************************************/
 }
 
 @media (min-width: 250px) and (max-width: 271px) {
@@ -2942,7 +3949,39 @@ button:active {
         left: 5%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 27%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+    font-size: 0%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 110%;
+    top: 23%;
+    left: 13%;
+    color:  #ff009d;
+}
+/*************************************************************************/
 }
 
 @media (max-width: 250px) {
@@ -3033,4 +4072,37 @@ button:active {
         left: 5%;
         top: 20%;
     }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 27%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 23%;
+        left: 10%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
 }

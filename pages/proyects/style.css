@@ -1,0 +1,221 @@
+
+/*         DIEGO REIJA PORFOLIO DEV   */
+
+:root {
+    --color1: #000000;              
+    --color2: rgb(17, 17, 17);      
+    --color3: #ffffff;              
+    --color4: #757171;              
+    --color5: #121212;                       
+    --color6: #ff009d;              
+    --color7: #ff2600;              
+    --color8: #ff0000;
+    --color9: #0037ff;
+    --color10: #fffb00;
+    --color11: #42424c;  
+}
+
+body {
+    background-color: var(--color5);
+    margin: 2%;
+}
+
+
+h1 {
+  background: linear-gradient(150deg, var(--color7),var(--color6));
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Arial Black', sans-serif;
+  font-weight: bolder;
+  font-size: 45px;
+  left: 10%;
+  position: absolute;
+  top: -4%;
+}
+
+.contariner {
+    display: flex;
+    justify-content: center;
+}
+section {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.037);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.037);
+    position: absolute;
+    width: 88%;
+    height: 90%;
+    margin: auto;
+    left: 6%;
+    top: 8%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+section::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.card {
+    position: absolute;
+    text-align: center;
+    height: 295px;
+    width: 230px;
+    top: 4%;
+    /*min-width: 200px;*/
+    border-radius: 16px;
+    background: #131315;
+    transition: .2s;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.card:hover {
+    transform: translateY(-0.4rem);
+  }
+    
+  .card-author {
+    position: relative;
+    display: flex;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+    margin: 3rem 0 0;
+  }
+    
+  .author-name {
+    color: #7a7a8c;
+  }
+    
+  .author-name-prefix {
+    color: #ff005d;
+    font-weight: 600;
+  }
+  
+  #fecha {
+      position: relative;
+      color: var(--color3);
+      text-align: right;
+      margin-top: 7%;
+      right: 10%;
+  }
+  
+  .author-avatar span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f2f2f2;
+    margin: 10px 10px;
+  }
+    
+  .half-circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 48px;
+    fill: none;
+    stroke: #ff4400;
+    stroke-width: 8;
+    stroke-linecap: round;
+  }
+    
+  .card-header {
+    margin-bottom: auto;
+    color: #42424c;
+  }
+    
+  .card-header p {
+    font-size: 14px;
+    margin: 0 0 1rem;
+    color: #42424c;
+  }
+    
+  .card-header .title {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Arial Black', sans-serif;
+  }
+    
+  .card-header .title:hover {
+    background: linear-gradient(90deg,#ff4400,#ff005d);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #icon-1 {
+    position: absolute;
+    font-size: 50px;
+    left: 4%;
+    top: 80%;
+    color: var(--color11);
+  }
+  
+  #icon-2 {
+    position: absolute;
+    font-size: 50px;
+    top: 80%;
+    left: 24%;
+    color: var(--color11);
+  }
+  
+  #icon-3 {
+    position: absolute;
+    font-size: 50px;
+    top: 80%;
+    left: 45%;
+    color: var(--color11);
+  }
+
+.file1 {    
+    position: absolute;
+    top: 4%;
+}
+
+.file2 {    
+    position: absolute;
+    top: 41%;
+}
+
+.file3 {    
+    position: absolute;
+    top: 78%;
+}
+
+.file4 {    
+    position: absolute;
+    top: 116%;
+}
+
+  #card-1 {
+    left: 3%;
+  }
+
+  #card-2 {
+    left: 19%;
+  }
+
+  #card-3 {
+    left: 35%;
+  }
+
+  #card-4 {
+    left: 51%;
+  }
+
+  #card-5 {
+    left: 67%;
+  }
+
+  #card-6 {
+    left: 83%;
+  }

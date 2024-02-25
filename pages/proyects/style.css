@@ -219,3 +219,857 @@ section::-webkit-scrollbar {
   #card-6 {
     left: 83%;
   }
+
+/**************************************************************************************/
+/**************************************************************************************/
+/**************************************************************************************/
+/**************************************************************************************/
+/**************************************************************************************/
+
+@media (min-width: 1600px) and (max-width: 1650px) {
+    .file1 {    
+      position: absolute;
+      top: 4%;
+    }
+  
+    .file2 {    
+        position: absolute;
+        top: 41%;
+    }
+    
+    .file3 {    
+        position: absolute;
+        top: 78%;
+    }
+    
+    .file4 {    
+        position: absolute;
+        top: 116%;
+    }
+    
+      #card-1 {
+        left: 3%;
+      }
+    
+      #card-2 {
+        left: 22%;
+      }
+    
+      #card-3 {
+        left: 41%;
+      }
+    
+      #card-4 {
+        left: 60%;
+      }
+    
+      #card-5 {
+        left: 80%;
+      }
+    
+      #card-6 {
+        left: 93%;
+      }
+}
+
+@media (min-width: 1550px) and (max-width: 1600px) {
+    .file1 {    
+      position: absolute;
+      top: 4%;
+    }
+  
+    .file2 {    
+        position: absolute;
+        top: 41%;
+    }
+    
+    .file3 {    
+        position: absolute;
+        top: 78%;
+    }
+    
+    .file4 {    
+        position: absolute;
+        top: 116%;
+    }
+    
+      #card-1 {
+        left: 3%;
+      }
+    
+      #card-2 {
+        left: 22%;
+      }
+    
+      #card-3 {
+        left: 41%;
+      }
+    
+      #card-4 {
+        left: 61%;
+      }
+    
+      #card-5 {
+        left: 80%;
+      }
+    
+      #card-6 {
+        left: 93%;
+      }
+}
+
+@media (min-width: 1500px) and (max-width: 1550px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+  
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+    
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 23%;
+  }
+    
+  #card-3 {
+    left: 42%;
+  }
+    
+  #card-4 {
+    left: 61%;
+  }
+  
+  #card-5 {
+    left: 80%;
+  }
+    
+  #card-6 {
+    left: 95%;
+  }
+}
+
+@media (min-width: 1450px) and (max-width: 1500px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+  
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+    
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 23%;
+  }
+    
+  #card-3 {
+    left: 42%;
+  }
+    
+  #card-4 {
+    left: 61%;
+  }
+  
+  #card-5 {
+    left: 80%;
+  }
+    
+  #card-6 {
+    left: 95%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1450px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+  
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+    
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 23%;
+  }
+    
+  #card-3 {
+    left: 42%;
+  }
+    
+  #card-4 {
+    left: 61%;
+  }
+  
+  #card-5 {
+    left: 80%;
+  }
+    
+  #card-6 {
+    left: 95%;
+  }
+}
+
+@media (min-width: 1350px) and (max-width: 1400px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+  
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+  .file1-1 {
+    top: 45%;
+  }
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 30%;
+  }
+    
+  #card-3 {
+    left: 55%;
+  }
+    
+  #card-4 {
+    left: 80%;
+  }
+  
+  #card-5 {
+    left: 4%;
+  }
+    
+  #card-6 {
+    left: 30%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1350px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+  
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+  .file1-1 {
+    top: 45%;
+  }
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 30%;
+  }
+    
+  #card-3 {
+    left: 55%;
+  }
+    
+  #card-4 {
+    left: 80%;
+  }
+  
+  #card-5 {
+    left: 4%;
+  }
+    
+  #card-6 {
+    left: 30%;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1300px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+  
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+  .file1-1 {
+    top: 45%;
+  }
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 27%;
+  }
+    
+  #card-3 {
+    left: 52%;
+  }
+    
+  #card-4 {
+    left: 77%;
+  }
+  
+  #card-5 {
+    left: 4%;
+  }
+    
+  #card-6 {
+    left: 30%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1250px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+  
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+  .file1-1 {
+    top: 45%;
+  }
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 27%;
+  }
+    
+  #card-3 {
+    left: 52%;
+  }
+    
+  #card-4 {
+    left: 77%;
+  }
+  
+  #card-5 {
+    left: 4%;
+  }
+    
+  #card-6 {
+    left: 30%;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1200px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+  
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+  .file1-1 {
+    top: 45%;
+  }
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 28%;
+  }
+    
+  #card-3 {
+    left: 52%;
+  }
+    
+  #card-4 {
+    left: 77%;
+  }
+  
+  #card-5 {
+    left: 4%;
+  }
+    
+  #card-6 {
+    left: 30%;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1150px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+
+  .file1-1 {
+    top: 45%;
+  } 
+
+  .file1-1-1 {
+    top: 45%;
+  }
+
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 37%;
+  }
+    
+  #card-3 {
+    left: 70%;
+  }
+    
+  #card-4 {
+    left: 4%;
+  }
+  
+  #card-5 {
+    left: 37%;
+  }
+    
+  #card-6 {
+    left: 70%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1100px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+
+  .file1-1 {
+    top: 45%;
+  } 
+
+  .file1-1-1 {
+    top: 45%;
+  }
+
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 37%;
+  }
+    
+  #card-3 {
+    left: 70%;
+  }
+    
+  #card-4 {
+    left: 4%;
+  }
+  
+  #card-5 {
+    left: 37%;
+  }
+    
+  #card-6 {
+    left: 70%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 900px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+
+  .file1-1-1 {
+    top: 45%;
+  }
+
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+  .file2-2 {
+    top: 86%;
+  }
+
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 10%;
+  }
+    
+  #card-2 {
+    left: 60%;
+  }
+    
+  #card-3 {
+    left: 10%;
+  }
+    
+  #card-4 {
+    left: 60%;
+  }
+  
+  #card-5 {
+    left: 10%;
+  }
+    
+  #card-6 {
+    left: 60%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 650px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+
+  .file1-1-1 {
+    top: 45%;
+  }
+
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+  .file2-2 {
+    top: 86%;
+  }
+
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 55%;
+  }
+    
+  #card-3 {
+    left: 4%;
+  }
+    
+  #card-4 {
+    left: 55%;
+  }
+  
+  #card-5 {
+    left: 4%;
+  }
+    
+  #card-6 {
+    left: 55%;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 600px) {
+  .file1 {    
+    position: absolute;
+    top: 4%;
+  }
+
+  .file1-1-1 {
+    top: 45%;
+  }
+
+  .file2 {    
+    position: absolute;
+    top: 41%;
+  }
+  
+  .file2-2 {
+    top: 86%;
+  }
+
+  
+  .file3 {    
+    position: absolute;
+    top: 78%;
+  }
+    
+  .file4 {    
+    position: absolute;
+    top: 116%;
+  }
+    
+  #card-1 {
+    left: 4%;
+  }
+    
+  #card-2 {
+    left: 53%;
+  }
+    
+  #card-3 {
+    left: 4%;
+  }
+    
+  #card-4 {
+    left: 53%;
+  }
+  
+  #card-5 {
+    left: 4%;
+  }
+    
+  #card-6 {
+    left: 53%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 560px) {
+    
+  #card-1 {
+    left: 4%;
+    top: 2%;
+  }
+    
+  #card-2 {
+    left: 4%;
+    top: 42%;
+  }
+    
+  #card-3 {
+    left: 4%;
+    top: 83%;
+  }
+    
+  #card-4 {
+    left: 4%;
+    top: 125%;
+  }
+  
+  #card-5 {
+    left: 4%;
+    top: 166%;
+  }
+    
+  #card-6 {
+    left: 53%;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 300px) {
+    
+  h1 {
+    font-size: 35px;
+    left: 10%;
+    top: -2%;
+  }
+
+  .card {
+    position: absolute;
+    text-align: center;
+    height: 265px;
+    width: 200px;
+    top: 4%;
+    /*min-width: 200px;*/
+    border-radius: 16px;
+    background: #131315;
+    transition: .2s;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .card-header .title {
+    font-size: 22px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Arial Black', sans-serif;
+  }
+
+  #card-1 {
+    left: 4%;
+    top: 2%;
+  }
+    
+  #card-2 {
+    left: 4%;
+    top: 42%;
+  }
+    
+  #card-3 {
+    left: 4%;
+    top: 83%;
+  }
+    
+  #card-4 {
+    left: 4%;
+    top: 125%;
+  }
+  
+  #card-5 {
+    left: 4%;
+    top: 166%;
+  }
+    
+  #card-6 {
+    left: 53%;
+  }
+}

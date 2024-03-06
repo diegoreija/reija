@@ -176,6 +176,15 @@ section::-webkit-scrollbar {
     color: var(--color11);
   }
 
+  .img {
+    position: absolute;
+    width: 15%;
+    top: 83%;
+    left: 48%;
+    filter: grayscale(100%);
+    color: var(--color11);
+  }
+
 .file1 {    
     position: absolute;
     top: 4%;

@@ -1,0 +1,127 @@
+/* DIEGO REIJA LOPEZ */
+
+@import url(https://use.fontawesome.com/releases/v6.5.1/css/all.css);
+
+:root {
+    .black {color: #000000};
+    .white {color: #ffffff};
+    .red {color: #ff0000};
+    .gradient-1 {background: linear-gradient(150deg, #ff2600, #ff009d);
+                 background-clip: text;
+                 text-shadow: none;
+                 -webkit-background-clip: text;
+                 -webkit-text-fill-color: transparent;
+                 font-family: 'Arial Black', sans-serif;
+                 font-weight: bolder;};
+    .gray {color:rgb(17, 17, 17)};
+    .grey {color: #717571};
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% del viewport height */
+    background-color: rgb(17, 17, 17);
+}
+
+.container {
+    position: absolute;
+    width: 99.5%;
+    outline: 1px solid #717571;
+    height: 97%;
+    left: 0%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(9,1fr);
+    grid-template-areas: 
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n1 n1 n2 n2 n2 n2 n2 n2 n2 n2";
+    gap: 15px;
+}
+
+.item1 {
+    align-items: center;
+    background: linear-gradient(135deg, #ff2600, #ff009d);
+    border-radius: 0px 21px 21px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.item1 {
+    grid-area: n1;
+}
+
+.item2 {
+    align-items: center;
+    background: linear-gradient(135deg, #ff2600, #ff009d);
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.item2 {
+    grid-area: n2;
+}
+/*
+.item {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 16px;
+
+    background: linear-gradient(135deg, #ff2600, #ff009d);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(255, 255, 255, 0.037);
+}
+
+*/
+
+   /* Estilos para el menú desplegable */
+.submenu {
+    display: none;
+    list-style-type: none; /* Quita los marcadores de lista */
+    margin-bottom: 20px; /* Separación entre listas */
+    margin-top: 0; /* Elimina el margen superior */
+    padding-left: 0; /* Quita el relleno izquierdo */
+}
+.submenu li {
+    padding: 5px 0; /* Ajusta el espacio entre las opciones */
+}
+.active {
+    display: block;
+}
+
+ul {
+    position: absolute;
+    list-style-type: none; /* Quita los marcadores de lista */
+    margin-bottom: 20px;
+    margin: 2%; /* Separación entre listas */
+    margin-top: 20%; /* Elimina el margen superior */
+    padding-left: 5%; /* Quita el relleno izquierdo */
+}
+
+li {
+    font-size: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#opcion2 {
+    position: relative;
+    top: 20%;
+}

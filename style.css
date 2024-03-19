@@ -453,15 +453,7 @@ a {
   margin-left: 5px;
 }
   
-.social-btn:hover {
-  width: 150px;
-  border-radius: 5px;
-}
-  
-.social-btn:hover span {
-  padding: 2px;
-  width: 80px;
-}
+
   
 #twitter svg {
   fill: #1da1f2;
@@ -3736,6 +3728,54 @@ a {
     color:  #ff009d;
 }
 /*************************************************************************/
+    .social-btn {
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ff009d;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        background: #333;
+        margin: 5px;
+        transition: 0.3s;
+        justify-content: center;
+    }
+
+    #instagram {
+        position: absolute;
+        top: 395%;
+        left: -170%;
+    }
+
+    #twitter {
+        position: absolute;
+        top: 395%;
+        left: -70%;
+    }
+
+    #github {
+        position: absolute;
+        top: 395%;
+        left: 27%;
+    }
+
+    #youtube {
+        position: absolute;
+        top: 520%;
+        left: -170%;
+    }
+
+    #twitch {
+        position: absolute;
+        top: 520%;
+        left: -70%;
+    }
+
+    .bxl-discord, #discord {
+        width: 0%;
+        font-size: 0%;
+    }
 }
 
 @media (min-width: 272px) and (max-width: 300px) {
@@ -3859,6 +3899,54 @@ a {
     color:  #ff009d;
 }
 /*************************************************************************/
+    .social-btn {
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ff009d;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        background: #333;
+        margin: 5px;
+        transition: 0.3s;
+        justify-content: center;
+    }
+
+    #instagram {
+        position: absolute;
+        top: 395%;
+        left: -170%;
+    }
+
+    #twitter {
+        position: absolute;
+        top: 395%;
+        left: -70%;
+    }
+
+    #github {
+        position: absolute;
+        top: 395%;
+        left: 27%;
+    }
+
+    #youtube {
+        position: absolute;
+        top: 520%;
+        left: -170%;
+    }
+
+    #twitch {
+        position: absolute;
+        top: 520%;
+        left: -70%;
+    }
+
+    .bxl-discord, #discord {
+        width: 0%;
+        font-size: 0%;
+    }
 }
 
 @media (min-width: 250px) and (max-width: 271px) {
@@ -3982,6 +4070,54 @@ a {
     color:  #ff009d;
 }
 /*************************************************************************/
+    .social-btn {
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ff009d;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        background: #333;
+        margin: 5px;
+        transition: 0.3s;
+        justify-content: center;
+    }
+
+    #instagram {
+        position: absolute;
+        top: 395%;
+        left: -170%;
+    }
+
+    #twitter {
+        position: absolute;
+        top: 395%;
+        left: -70%;
+    }
+
+    #github {
+        position: absolute;
+        top: 395%;
+        left: 27%;
+    }
+
+    #youtube {
+        position: absolute;
+        top: 520%;
+        left: -170%;
+    }
+
+    #twitch {
+        position: absolute;
+        top: 520%;
+        left: -70%;
+    }
+
+    .bxl-discord, #discord {
+        width: 0%;
+        font-size: 0%;
+    }
 }
 
 @media (max-width: 250px) {
@@ -4105,4 +4241,52 @@ a {
         color:  #ff009d;
     }
 /*************************************************************************/
+    .social-btn {
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ff009d;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        background: #333;
+        margin: 5px;
+        transition: 0.3s;
+        justify-content: center;
+    }
+
+    #instagram {
+        position: absolute;
+        top: 395%;
+        left: -170%;
+    }
+
+    #twitter {
+        position: absolute;
+        top: 395%;
+        left: -70%;
+    }
+
+    #github {
+        position: absolute;
+        top: 395%;
+        left: 27%;
+    }
+
+    #youtube {
+        position: absolute;
+        top: 520%;
+        left: -170%;
+    }
+
+    #twitch {
+        position: absolute;
+        top: 520%;
+        left: -70%;
+    }
+
+    .bxl-discord, #discord {
+        width: 0%;
+        font-size: 0%;
+    }
 }

@@ -1,0 +1,4431 @@
+   
+HTML 1
+
+ <div class="container">
+        <section class="item item1"><!-- PRESENTATION -->
+            <h1>DIEGO REIJA</h1>
+            <h3>Creativity | Adaptation | Good communication</h3>
+            <p>
+                In search of new opportunities to advance and perfect myself as a <span>fullstack programmer</span>.
+                With a firm willingness to face innovative challenges and elevate projects to higher levels. 
+                Passionate about the comprehensive development of technological solutions, I am ready to 
+                contribute with my experience and skills to the success of ambitious projects.
+            </p>
+
+
+        </section>
+        <section class="item item2"></section>
+        <section class="item item3">  <!-- SKILLS -->
+            <h2 id="skills">SKILLS</h2>
+            <div class="container-1">
+                <img class="item-1 img1" src="./imgs/html.png"> <!--  IMG 1  -->
+                <img class="item-1 img2" src="./imgs/css.png">  <!--  IMG 2  -->
+                <img class="item-1 img3" src="./imgs/javascript.png">  <!--  IMG 3  -->
+                <img class="item-1 img4" src="./imgs/C.png">   <!--  IMG 4  -->                <img class="item-1 img6" src="./imgs/CCC.png">  <!--  IMG 6  -->
+                <img class="item-1 img5" src="./imgs/java.png">  <!--  IMG 7  -->
+                <img class="item-1 img6" src="./imgs/flutter.png">  <!--  IMG 8  -->
+                <img class="item-1 img7" src="./imgs/swift.png">   <!--  IMG 9  --> 
+                <img class="item-1 img8" src="./imgs/ruby.png">   <!--  IMG 10  -->
+                <img class="item-1 img9" src="./imgs/kotlin.png">        <!--  IMG 11  -->
+                <img class="item-1 img10" src="./imgs/python.png">        <!--  IMG 12  -->
+                <img class="item-1 img11" src="./imgs/php.png">        <!--  IMG 13  -->
+                <img class="item-1 img12" src="./imgs/solidity.png">        <!--  IMG 14  -->
+                <img class="item-1 img13" src="./imgs/rust.png">        <!--  IMG 16  -->
+                <img class="item-1 img14" src="./imgs/scala.png">        <!--  IMG 18  -->
+            </div>
+            <hr>
+            <div class="container-2">
+                <img class="item-2 img15" src="./imgs/node.png">
+                <img class="item-2 img16" src="./imgs/angular.png">
+                <img class="item-2 img17" src="./imgs/vue.png">
+                <img class="item-2 img18" src="./imgs/react.png">
+                <img class="item-2 img19" src="./imgs/mongo.png">
+                <img class="item-2 img20" src="./imgs/laravel.png">
+                <img class="item-2 img21" src="./imgs/djongo.png">
+                <img class="item-2 img22" src="./imgs/astro.png">
+                <img class="item-2 img23" src="./imgs/tailwind.png">
+            </div>
+<!-- 
+
+                <img class="item-2 img26" src="./imgs/react.png">
+                <img class="item-2 img27" src="./imgs/react.png">
+                <img class="item-2 img28" src="./imgs/react.png">
+                <img class="item-2 img29" src="./imgs/react.png">
+                <img class="item-2 img30" src="./imgs/react.png">
+                <img class="item-2 img31" src="./imgs/react.png">
+                <img class="item-2 img32" src="./imgs/react.png">
+                <img class="item-2 img33" src="./imgs/react.png">
+                <img class="item-2 img34" src="./imgs/react.png">
+                <img class="item-2 img35" src="./imgs/react.png">
+                <img class="item-2 img36" src="./imgs/react.png">
+
+            <hr id="hr2">
+            <div class="container-3">
+                <img class="item-2 img25" src="./imgs/MySQL.png">              
+            </div>
+-->
+        </section>
+        <section class="item item4">
+            <h2 id="about">ABOUT ME</h2>
+            <i class='bx bxs-user'></i>
+        </section>
+        <section class="item item5">
+            <a href="./pages/certificates/index.html">
+                <h2 id="titles">CERTIFICATIONS</h2>
+                <i class='bx bx-bookmarks'></i>                
+            </a>
+        </section>        
+        <section class="item item6">
+            <a href="./pages/proyects/index.html">
+                <h2 id="proyects">PROYECTS</h2>
+                <i class='bx bx-code-alt'></i>
+            </a>
+        </section>
+        <section class="item item7"></section>
+        <section class="item item8">
+            <a href="./pages/contect/index.html">
+                <h2 id="contact_me">CONTACT ME</h2>
+                <i class='bx bx-mail-send'></i>
+            </a>
+        </section>
+        <section class="item item9">
+            <div class="social-links">
+                <a href="https://www.instagram.com/diegoreija_">
+                    <div id="instagram" class="social-btn flex-center">
+                        <i class='bx bxl-instagram'></i>
+                        <span id="social_red">@diegoreija_</span>
+                    </div>
+                </a>
+                <a href="https://twitter.com/reiija21">
+                    <div id="twitter" class="social-btn flex-center">
+                        <i class='bx bxl-twitter'></i>                    
+                        <span id="social_red">@reiija21</span>
+                    </div>
+                </a>
+                <a href="https://github.com/Reija21">
+                    <div id="github" class="social-btn flex-center">
+                        <i class='bx bxl-github'></i>
+                        <span id="social_red">Reija21</span>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/channel/UC_IHOpjgSmno68Lo7YBFCsQ">
+                    <div id="youtube" class="social-btn flex-center">
+                        <i class='bx bxl-youtube'></i>
+                        <span id="social_red">@reijatech</span>
+                    </div>
+                </a>
+                <a href="https://www.twitch.tv/reiija21">
+                    <div id="twitch" class="social-btn flex-center">
+                        <i class='bx bxl-twitch'></i>
+                        <span id="social_red">Reija21</span>
+                    </div>
+                </a>
+                <a href="https://discord.gg/BzxDGpQ4">
+                    <div id="discord" class="social-btn flex-center">
+                        <i class='bx bxl-discord'></i>                    
+                        <span id="social_red">DEVgroup</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+CSS 1
+
+/* DIEGO REIJA LOPEZ */
+
+@import url(https://use.fontawesome.com/releases/v6.5.1/css/all.css);
+
+:root {
+    .black {color: #000000};
+    .white {color: #ffffff};
+    .red {color: #ff0000};
+    .gradient-1 {background: linear-gradient(150deg, #ff2600, #ff009d);
+                 background-clip: text;
+                 text-shadow: none;
+                 -webkit-background-clip: text;
+                 -webkit-text-fill-color: transparent;
+                 font-family: 'Arial Black', sans-serif;
+                 font-weight: bolder;};
+    .gray {color:rgb(17, 17, 17)};
+    .grey {color: #717571};
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% del viewport height */
+    background-color: rgb(17, 17, 17);
+}
+
+
+.container {
+    width: 80%;
+    outline: 1px solid transparent;
+    height: 97%;
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(9,1fr);
+    grid-template-areas: 
+    "n1 n1 n1 n1 n2 n2"
+    "n1 n1 n1 n1 n2 n2"
+    "n1 n1 n1 n1 n2 n2"
+    "n3 n3 n3 n10 n2 n2"
+    "n3 n3 n3 n10 n2 n2"
+    "n3 n3 n3 n10 n2 n2"
+    "n5 n5 n9 n9 n4 n4"
+    "n6 n6 n7 n7 n7 n7"
+    "n8 n8 n7 n7 n7 n7";
+    gap: 15px;
+    background-color: transparent;
+}
+
+.container-1 {
+    width: 40%;
+    height: 60%;
+    margin: 3%;
+    padding: 1%;
+    position: absolute;
+    top: 20%;
+    margin-left: 5%;
+    gap: 10px;
+    /*outline: 1px solid blue;*/
+    /*background-color: red;*/
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3);
+    grid-template-areas: 
+    "n1 n2 n3 n4 n5"
+    "n6 n7 n8 n9 n10"
+    "n13 n14 n15 n16";
+}
+
+hr {
+    position: absolute;
+    width: 0.01%;
+    height: 72%;
+    left: 50%;
+    top: 14%;
+    /*
+    background-color: #717571;
+    border: 1px solid #717571;
+    */
+    background-color: #ff009d;
+    border: 1px solid #ff009d;
+}
+
+.container-2 {
+    width: 40%;
+    height: 60%;
+    margin: 3%;
+    padding: 3%;
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    gap: 10px;
+    /*outline: 1px solid rgb(187, 255, 0);*/
+    /*background-color: red;*/
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3);
+    grid-template-areas: 
+    "n15 n16 n17 n18 n19"
+    "n20 n21 n22 n23 n24"
+    "n25 n26 n27 n28 n29";
+}
+
+.container-3 {
+    width: 40%;
+    height: 60%;
+    margin: 3%;
+    padding: 3%;
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    gap: 10px;
+    /*outline: 1px solid rgb(187, 255, 0);*/
+    /*background-color: red;*/
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3);
+    grid-template-areas: 
+    "n15 n16 n17 n18 n19"
+    "n20 n21 n22 n23 n24"
+    "n25 n26 n27 n28 n29";
+}
+
+
+
+/*
+.container-2 {
+    width: 25%;
+    height: 71%;
+    margin: 3%;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    outline: 1px solid blue;
+    gap: 10px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "n1 n2 n3"
+    "n4 n5 n6"
+    "n7 n8 n9";
+}
+
+.container-3 {
+    width: 25%;
+    height: 71%;
+    margin: 3%;
+    position: absolute;
+    top: 12%;
+    left: 65%;
+    outline: 1px solid blue;
+    gap: 10px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "n1 n2 n3"
+    "n4 n5 n6"
+    "n7 n8 n9";
+}
+*/
+
+.item-1 {
+    align-items: center;
+    /*background-color: #000000;*/
+    width: 80%;
+}
+
+.img13 {
+    width: 120%;
+    margin-left: -13%;
+}
+
+.img21 {
+    width: 70%;
+}
+
+.item-2 {
+    align-items: center;
+    /*background-color: #000000;*/
+    width: 80%;
+}
+
+/*.img1,*/ /*.img2,*/ /*.img3,*/
+/*.img4,*/ .img5, .img6,
+.img7, .img8, /*.img9,*/
+.img10, .img11, /*.img12,*/
+.img13, .img14, .img15,
+.img16, .img17, /*.img18,*/
+.img19, .img20, .img21,
+.img22, .img23, .img24,
+.img25, .img26, .img27,
+.img28, .img29, .img30  {
+    filter: grayscale(100%);
+}
+
+.item {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 16px;
+    /* From https://css.glass */
+
+/* From https://css.glass */
+    background: rgba(255, 255, 255, 0.037);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(255, 255, 255, 0.037);
+}
+
+
+
+span {
+    background: linear-gradient(150deg, #ff2600, #ff009d);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Arial Blac  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  k', sans-serif;
+    font-weight: bolder;
+}
+
+
+/****************************************/
+/*                                   N1 */
+/****************************************/
+.item1 {
+    grid-area: n1;
+}
+
+h1 {
+    position: absolute;
+    margin: 5%;
+    margin-top: 2%;
+    font-size: 45px;
+    font-family: 'Arial Blac  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  k', sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(150deg, #ff2600, #ff009d);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    position: absolute;
+    margin: 5%;
+    margin-top: 1%;
+    left: -3%;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Arial Blac  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  k', sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(150deg, #ff2600, #ff009d);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    position: absolute;
+    margin: 5%;
+    margin-top: 9%;
+    font-size: 15px;
+    font-family: 'Arial Black', sans-serif; 
+    font-weight: bolder;           
+    background: linear-gradient(150deg, #ff2600, #ff009d);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    position: absolute;
+    top: 25%;
+    margin: 5%;
+    font-size: 20px;
+    font-family: 'Arial Blac  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  k', sans-serif;
+    font-weight: bold;
+    color: #757171;
+    text-align: justify;
+}
+
+  
+button:hover .icon {
+  transform: translateX(96px);
+  transition: transform 0.5s;
+}
+  
+button:hover .text2 {
+  transform: translateX(100px);
+  transition: transform 0.6s;
+}
+  
+button:active {
+  transform: scale(1.03);
+}
+
+/********************************************************************************************************************************************************************/
+.item2 {
+    background-color: #ff009d;
+    grid-area: n2;
+}
+/********************************************************************************************************************************************************************/
+.item3 {
+    grid-area: n3;
+}
+/********************************************************************************************************************************************************************/
+.item4 {
+    grid-area: n4;
+}
+
+#about  {
+    text-align: center;
+    left: 15%;
+    top: 20%;
+}
+
+.bxs-user {
+    position: absolute;
+    font-size: 250%;
+    top: 6.5%;
+    left: 70%;
+    color:  #ff009d;
+}
+/********************************************************************************************************************************************************************/
+.item5 {
+    grid-area: n5;
+}
+
+#titles  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+}
+
+.bx-bookmarks {
+    position: absolute;
+    font-size: 250%;
+    top: 6.5%;
+    left: 75%;
+    color:  #ff009d;
+}
+/********************************************************************************************************************************************************************/
+.item6 {
+    grid-area: n6;
+}
+
+#proyects  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+}
+
+.bx-code-alt {
+    position: absolute;
+    font-size: 200%;
+    top: 10%;
+    left: 75%;
+    color:  #ff009d;
+}
+
+/********************************************************************************************************************************************************************/
+.item7 {
+    background-color: tomato;
+    grid-area: n7;
+}
+/********************************************************************************************************************************************************************/
+.item8 {
+    grid-area: n8;
+}
+
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 200%;
+    top: 10%;
+    left: 75%;
+    color:  #ff009d;
+}
+/********************************************************************************************************************************************************************/
+.item9 {
+    grid-area: n9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-links,.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 17%;
+  position: relative;
+}
+
+.bxl-instagram, .bxl-twitter, .bxl-github, .bxl-youtube, .bxl-twitch, .bxl-discord {
+    position: absolute;
+    left: 13%;
+    font-size: 120%;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ff009d;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: #333;
+  margin: 5px;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+#social_red {
+    position: relative;
+    font-size: 15px;
+    left: 15%;
+}
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+}
+  
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 5px;
+}
+  
+
+  
+#twitter svg {
+  fill: #1da1f2;
+}
+  
+#instagram svg {
+  fill: #0e76a8;
+}
+  
+#github {
+  fill: #333;
+}
+  
+
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************/
+
+
+
+@media (min-width: 1600px) and (max-width: 1650px) {
+
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 95%;
+    } 
+
+    #about {
+        font-size: 100%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 160%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 100%;
+        top: 23%;
+    }
+
+    .bx-bookmarks {
+        font-size: 140%;
+        left: 80%;
+        top: 20%;
+    }
+}
+
+@media (min-width: 1550px) and (max-width: 1600px) {
+
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 95%;
+    } 
+
+    #about {
+        font-size: 95%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 160%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 90%;
+        top: 23%;
+    }
+
+    .bx-bookmarks {
+        font-size: 140%;
+        left: 80%;
+        top: 20%;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1550px) {
+
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 95%;
+    } 
+
+    #about {
+        font-size: 95%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 160%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 90%;
+        top: 23%;
+    }
+
+    .bx-bookmarks {
+        font-size: 140%;
+        left: 80%;
+        top: 20%;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1500px) {
+
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 95%;
+    } 
+
+    #about {
+        font-size: 95%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 160%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 90%;
+        top: 23%;
+    }
+
+    .bx-bookmarks {
+        font-size: 140%;
+        left: 80%;
+        top: 20%;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1450px) {
+
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 95%;
+    } 
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 80%;
+        top: 27%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1400px) {
+
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 95%;
+    } 
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 80%;
+        top: 27%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 90%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 150%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 1300px) and (max-width: 1350px) {
+
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 95%;
+    } 
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 80%;
+        top: 27%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 165%;
+        top: 12%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 90%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 150%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 1250px) and (max-width: 1300px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n5 n5 n9 n9 n4 n4"
+        "n6 n6 n7 n7 n7 n7"
+        "n8 n8 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 12%;
+        font-size: 17px;
+    }
+
+    p {
+        top: 34%;
+        font-size: 19px;
+    }
+/*==================================================*/
+                                     /* TARGET == 2 */
+/*==================================================*/
+    
+    .container-1 {
+        margin: 3%;
+        padding: 3%;
+        gap: 8px;
+        top: 12%;
+    }
+
+    .container-2 {
+        margin: 3%;
+        padding: 3%;
+        gap: 8px;
+        top: 12%;
+    }
+
+    hr {
+        left: 50%;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 75%;
+    }
+
+    .img13 {
+        width: 100%;
+        margin-left: -13%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 85%;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 80%;
+        top: 27%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 165%;
+        top: 12%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 85%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 130%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 1200px) and (max-width: 1250px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n5 n5 n9 n9 n4 n4"
+        "n6 n6 n7 n7 n7 n7"
+        "n8 n8 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 12%;
+        font-size: 17px;
+    }
+
+    p {
+        top: 34%;
+        font-size: 19px;
+    }
+/*==================================================*/
+                                     /* TARGET == 2 */
+/*==================================================*/
+    
+    .container-1 {
+        margin: 3%;
+        padding: 3%;
+        gap: 8px;
+    }
+
+    hr {
+        left: 50%;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 75%;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 85%;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 73%;
+        top: 27%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 145%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 85%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 130%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 1150px) and (max-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n5 n5 n9 n9 n4 n4"
+        "n6 n6 n7 n7 n7 n7"
+        "n8 n8 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 12%;
+        font-size: 17px;
+    }
+
+    p {
+        top: 34%;
+        font-size: 19px;
+    }
+/*==================================================*/
+                                     /* TARGET == 2 */
+/*==================================================*/
+    
+    .container-1 {
+        margin: 3%;
+        padding: 3%;
+        gap: 8px;
+    }
+
+    hr {
+        left: 50%;
+    }
+
+    
+    
+    #skills {
+        font-size: 28px;
+        left: 3%;
+        top: 2%;
+    }
+
+    .container-1 {
+        top: 8%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 70%;
+    }
+
+    .container-2 {
+        top: 7%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 70%;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 73%;
+        top: 27%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 145%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 85%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 130%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 1100px) and (max-width: 1150px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n5 n5 n9 n9 n4 n4"
+        "n6 n6 n7 n7 n7 n7"
+        "n8 n8 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 12%;
+        font-size: 17px;
+    }
+
+    p {
+        top: 34%;
+        font-size: 19px;
+    }
+/*==================================================*/
+                                     /* TARGET == 2 */
+/*==================================================*/
+    
+    
+    #skills {
+        font-size: 25px;
+        left: 3%;
+        top: 2%;
+    }
+
+    .container-1 {
+        top: 8%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 70%;
+    }
+
+    .container-2 {
+        top: 7%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 70%;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 73%;
+        top: 27%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 145%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 22%;
+        font-size: 85%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 130%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n5 n5 n9 n9 n4 n4"
+        "n6 n6 n7 n7 n7 n7"
+        "n8 n8 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 12%;
+        font-size: 17px;
+    }
+
+    p {
+        top: 34%;
+        font-size: 19px;
+    }
+/*==================================================*/
+                                     /* TARGET == 2 */
+/*==================================================*/
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 70%;
+        top: 23%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n5 n5 n9 n9 n4 n4"
+        "n6 n6 n7 n7 n7 n7"
+        "n8 n8 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 12%;
+        font-size: 17px;
+    }
+
+    p {
+        top: 34%;
+        font-size: 19px;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 70%;
+        top: 23%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 95%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 135%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 26%;
+        font-size: 75%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 950px) and (max-width: 1000px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n9 n9"
+        "n5 n5 n5 n4 n4 n4"
+        "n6 n6 n7 n7 n7 n7"
+        "n8 n8 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 12%;
+        font-size: 17px;
+    }
+
+    p {
+        top: 34%;
+        font-size: 19px;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 85%;
+        top: 23%;
+    }
+
+    .bx-bookmarks {
+        font-size: 140%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 85%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 135%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 26%;
+    font-size: 75%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 120%;
+    top: 20%;
+    left: 78%;
+    color:  #ff009d;
+}
+/*************************************************************************/
+}
+
+@media (min-width: 900px) and (max-width: 950px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n2 n2"
+        "n3 n3 n3 n3 n9 n9"
+        "n5 n5 n5 n4 n4 n4"
+        "n6 n6 n7 n7 n7 n7"
+        "n8 n8 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 12%;
+        font-size: 17px;
+    }
+
+    p {
+        top: 34%;
+        font-size: 19px;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 85%;
+        top: 23%;
+    }
+
+    .bx-bookmarks {
+        font-size: 140%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 85%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 135%;
+        top: 20%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 26%;
+        font-size: 75%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 850px) and (max-width: 900px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n5 n5 n5 n4 n4 n4"
+        "n6 n6 n6 n7 n7 n7"
+        "n8 n8 n8 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 9%;
+        font-size: 15px;
+    }
+
+    p {
+        top: 31%;
+        font-size: 17px;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 80%;
+        top: 25%;
+    }
+
+    .bx-bookmarks {
+        font-size: 140%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 80%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 125%;
+        top: 22%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 26%;
+        font-size: 70%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+    
+    .item9 {
+        grid-area: n9;
+        background: transparent;
+        border: transparent;
+    }
+
+    .social-btn {
+        height: 0px;
+        width: 0px;
+    }
+
+    .bxl-instagram, .bxl-twitter, .bxl-github, .bxl-youtube, .bxl-twitch, .bxl-discord {
+        position: absolute;
+        left: 13%;
+        font-size: 0%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n5 n5 n5 n4 n4 n4"
+        "n6 n6 n6 n7 n7 n7"
+        "n8 n8 n8 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 9%;
+        font-size: 15px;
+    }
+
+    p {
+        top: 31%;
+        font-size: 17px;
+    }
+
+    #about {
+        font-size: 85%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 140%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 80%;
+        top: 25%;
+    }
+
+    .bx-bookmarks {
+        font-size: 140%;
+        left: 80%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 75%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 125%;
+        top: 22%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 26%;
+        font-size: 70%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+    
+    .item9 {
+        grid-area: n9;
+        background: transparent;
+        border: transparent;
+    }
+
+    .social-btn {
+        height: 0px;
+        width: 0px;
+    }
+
+    .bxl-instagram, .bxl-twitter, .bxl-github, .bxl-youtube, .bxl-twitch, .bxl-discord {
+        position: absolute;
+        left: 13%;
+        font-size: 0%;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 800px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n5 n5 n5 n4 n4 n4"
+        "n6 n6 n6 n7 n7 n7"
+        "n8 n8 n8 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 9%;
+        font-size: 15px;
+    }
+
+    p {
+        top: 31%;
+        font-size: 17px;
+    }
+
+    #about {
+        font-size: 80%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 20%;
+    }
+
+    #titles {
+        font-size: 70%;
+        top: 25%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 75%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 115%;
+        top: 22%;
+        left: 77%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 30%;
+        font-size: 60%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+    
+    .item9 {
+        grid-area: n9;
+        background: transparent;
+        border: transparent;
+    }
+
+    .social-btn {
+        height: 0px;
+        width: 0px;
+    }
+
+    .bxl-instagram, .bxl-twitter, .bxl-github, .bxl-youtube, .bxl-twitch, .bxl-discord {
+        position: absolute;
+        left: 13%;
+        font-size: 0%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 750px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n1 n1 n1 n1 n2 n2"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n5 n5 n5 n4 n4 n4"
+        "n6 n6 n9 n7 n7 n7"
+        "n8 n8 n9 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        top: 9%;
+        font-size: 15px;
+    }
+
+    p {
+        top: 31%;
+        font-size: 17px;
+    }
+
+    #about {
+        font-size: 80%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 67%;
+        top: 25%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 27%;
+        font-size: 65%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 115%;
+        top: 20%;
+        left: 75%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 30%;
+        font-size: 60%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 675px) and (max-width: 700px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n5 n5 n5 n5"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n4 n6 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 45px;
+    }
+    
+    h3 {
+        top: 5%;
+        font-size: 16px;
+    }
+
+    p {
+        top: 26%;
+        font-size: 19px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+
+    .container-1 {
+        top: 14%;
+        gap: 6px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 65%;
+    }
+
+    .img13 {
+        width: 110%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 5%;
+        gap: 6px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 65%;
+    }
+
+    #about {
+        font-size: 80%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 80%;
+        top: 22%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 21%;
+        font-size: 80%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 80%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 650px) and (max-width: 675px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n5 n5 n5 n5"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n4 n6 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 45px;
+    }
+    
+    h3 {
+        top: 5%;
+        font-size: 16px;
+    }
+
+    p {
+        top: 24%;
+        font-size: 19px;
+    }
+
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+
+    .container-1 {
+        top: 14%;
+        gap: 6px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 65%;
+    }
+
+    .img13 {
+        width: 110%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 5%;
+        gap: 6px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 65%;
+    }
+
+    #about {
+        font-size: 80%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 80%;
+        top: 22%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 21%;
+        font-size: 80%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 75%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 600px) and (max-width: 650px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n5 n5 n5 n5"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n4 n6 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+    h2 {
+        font-size: ""px;
+    }
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 5%;
+        font-size: 14px;
+    }
+
+    p {
+        top: 23%;
+        font-size: 17px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+
+    .container-1 {
+        top: 16%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 70%;
+    }
+
+    .img13 {
+        width: 110%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 7%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 70%;
+    }
+
+    #about {
+        font-size: 75%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 75%;
+        top: 22%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 21%;
+        font-size: 80%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 75%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 575px) and (max-width: 600px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n5 n5 n5 n5"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n4 n6 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 5%;
+        font-size: 14px;
+    }
+
+    p {
+        top: 23%;
+        font-size: 17px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+
+    .container-1 {
+        top: 16%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 80%;
+    }
+
+    .img13 {
+        width: 110%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 10%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 85%;
+    }
+
+    #about {
+        font-size: 75%;
+        left: 2%;
+        top: 22%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 75%;
+        top: 22%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 75%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 23%;
+    font-size: 65%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 110%;
+    top: 18%;
+    left: 78%;
+    color:  #ff009d;
+}
+/*************************************************************************/
+}
+
+@media (min-width: 550px) and (max-width: 575px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n5 n5 n5 n5"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n4 n6 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 5%;
+        font-size: 14px;
+    }
+
+    p {
+        top: 23%;
+        font-size: 17px;
+    }
+    
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 16%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 85%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 10%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    #about {
+        font-size: 70%;
+        left: 2%;
+        top: 26%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 70%;
+        top: 26%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 75%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 65%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 500px) and (max-width: 550px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n5 n5 n5 n5"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n4 n6 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 5%;
+        font-size: 14px;
+    }
+
+    p {
+        top: 23%;
+        font-size: 17px;
+    }
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 16%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 85%;
+    }
+
+    .img13 {
+        width: 120%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 10%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 90%;
+    }
+
+    #about {
+        font-size: 70%;
+        left: 2%;
+        top: 26%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 60%;
+        top: 26%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 70%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 23%;
+        font-size: 65%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 78%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 475px) and (max-width: 500px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n5 n5 n5 n5"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n4 n6 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 8%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 28%;
+        font-size: 16px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 20%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 100%;
+    }
+
+    .img13 {
+        width: 130%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 15%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 100%;
+    }
+
+    #about {
+        font-size: 60%;
+        left: 2%;
+        top: 26%;
+    }
+
+    .bxs-user {
+        font-size: 120%;
+        left: 70%;
+        top: 15%;
+    }
+
+    #titles {
+        font-size: 60%;
+        top: 26%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 75%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 25%;
+        font-size: 65%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 130%;
+        top: 15%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 30%;
+        font-size: 54%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 18%;
+        left: 73%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 450px) and (max-width: 475px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n5 n5 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 11%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 33%;
+        font-size: 14px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 20%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 100%;
+    }
+
+    .img13 {
+        width: 130%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 15%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 100%;
+    }
+
+    #about, #titles {
+        font-size: 0%;
+    }
+
+    .bxs-user {
+        font-size: 180%;
+        left: 25%;
+        top: 0%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 33%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 8%;
+        left: 30%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 30%;
+        font-size: 50%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 17%;
+        left: 72%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 400px) and (max-width: 450px) {
+    .container {
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n2 n2 n7 n7 n7 n7"
+        "n4 n4 n5 n5 n6 n6"
+        "n8 n8 n8 n9 n9 n9";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 11%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 33%;
+        font-size: 14px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 20%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 120%;
+    }
+
+    .img13 {
+        width: 160%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 15%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 120%;
+    }
+
+    #about, #titles {
+        font-size: 0%;
+    }
+
+    .bxs-user {
+        font-size: 180%;
+        left: 25%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 33%;
+        top: 15%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 8%;
+        left: 26%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 150%;
+        top:10%;
+        left: 35%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 376px) and (max-width: 400px) {
+    .container {
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n2 n2 n2 n4 n4 n4 n4"
+        "n2 n2 n2 n5 n5 n8 n8"
+        "n2 n2 n2 n6 n6 n9 n9"
+        "n7 n7 n7 n7 n7 n7 n7"
+        "n7 n7 n7 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 11%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 33%;
+        font-size: 13px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 20%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 120%;
+    }
+
+    .img13 {
+        width: 160%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 15%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 120%;
+    }
+
+    #about, #titles {
+        font-size: 0%;
+    }
+
+    .bxs-user {
+        font-size: 180%;
+        left: 30%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 25%;
+        top: 18%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 8%;
+        left: 17%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 120%;
+        top: 20%;
+        left: 25%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+}
+
+@media (min-width: 350px) and (max-width: 375px) {
+    .container {
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(11,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n2 n2 n2 n4 n4 n4 n4"
+        "n2 n2 n2 n5 n5 n8 n8"
+        "n2 n2 n2 n6 n6 n9 n9"
+        "n7 n7 n7 n7 n7 n7 n7"
+        "n7 n7 n7 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        top: 11%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 33%;
+        font-size: 13px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 20%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 120%;
+    }
+
+    .img13 {
+        width: 160%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 15%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 120%;
+    }
+
+    #about, #titles {
+        font-size: 0%;
+    }
+
+    .bxs-user {
+        font-size: 180%;
+        left: 30%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 24%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 15%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+    font-size: 0%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 120%;
+    top: 20%;
+    left: 22%;
+    color:  #ff009d;
+}
+/*************************************************************************/
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+    .container {
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(11,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n2 n2 n2 n4 n4 n4 n4"
+        "n2 n2 n2 n5 n5 n8 n8"
+        "n6 n6 n6 n6 n9 n9 n9"
+        "n7 n7 n7 n7 n7 n7 n7"
+        "n7 n7 n7 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 33px;
+    }
+    
+    h3 {
+        top: 11%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 33%;
+        font-size: 13px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 25%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 150%;
+    }
+
+    .img13 {
+        width: 200%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 22%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 160%;
+    }
+
+    #about, #titles {
+        font-size: 0%;
+    }
+
+    .bxs-user {
+        font-size: 180%;
+        left: 30%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 15%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 35%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+    font-size: 0%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 120%;
+    top: 20%;
+    left: 20%;
+    color:  #ff009d;
+}
+/*************************************************************************/
+    .social-btn {
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ff009d;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        background: #333;
+        margin: 5px;
+        transition: 0.3s;
+        justify-content: center;
+    }
+
+    #instagram {
+        position: absolute;
+        top: 395%;
+        left: -170%;
+    }
+
+    #twitter {
+        position: absolute;
+        top: 395%;
+        left: -70%;
+    }
+
+    #github {
+        position: absolute;
+        top: 395%;
+        left: 27%;
+    }
+
+    #youtube {
+        position: absolute;
+        top: 520%;
+        left: -170%;
+    }
+
+    #twitch {
+        position: absolute;
+        top: 520%;
+        left: -70%;
+    }
+
+    .bxl-discord, #discord {
+        width: 0%;
+        font-size: 0%;
+    }
+}
+
+@media (min-width: 272px) and (max-width: 300px) {
+    .container {
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(11,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n2 n2 n2 n4 n4 n4 n4"
+        "n2 n2 n2 n5 n5 n8 n8"
+        "n6 n6 n6 n6 n9 n9 n9"
+        "n7 n7 n7 n7 n7 n7 n7"
+        "n7 n7 n7 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        top: 11%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 33%;
+        font-size: 13px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 25%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 150%;
+    }
+
+    .img13 {
+        width: 200%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 22%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 160%;
+    }
+
+    #about, #titles {
+        font-size: 0%;
+    }
+
+    .bxs-user {
+        font-size: 180%;
+        left: 25%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 10%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 27%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+    font-size: 0%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 110%;
+    top: 23%;
+    left: 16%;
+    color:  #ff009d;
+}
+/*************************************************************************/
+    .social-btn {
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ff009d;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        background: #333;
+        margin: 5px;
+        transition: 0.3s;
+        justify-content: center;
+    }
+
+    #instagram {
+        position: absolute;
+        top: 395%;
+        left: -170%;
+    }
+
+    #twitter {
+        position: absolute;
+        top: 395%;
+        left: -70%;
+    }
+
+    #github {
+        position: absolute;
+        top: 395%;
+        left: 27%;
+    }
+
+    #youtube {
+        position: absolute;
+        top: 520%;
+        left: -170%;
+    }
+
+    #twitch {
+        position: absolute;
+        top: 520%;
+        left: -70%;
+    }
+
+    .bxl-discord, #discord {
+        width: 0%;
+        font-size: 0%;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 271px) {
+    .container {
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(11,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n2 n2 n2 n4 n4 n4 n4"
+        "n2 n2 n2 n5 n5 n8 n8"
+        "n6 n6 n6 n6 n9 n9 n9"
+        "n7 n7 n7 n7 n7 n7 n7"
+        "n7 n7 n7 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        top: 6%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 26%;
+        font-size: 12px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 25%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 150%;
+    }
+
+    .img13 {
+        width: 200%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 22%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 160%;
+    }
+
+    #about, #titles {
+        font-size: 0%;
+    }
+
+    .bxs-user {
+        font-size: 180%;
+        left: 25%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 5%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 27%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+#contact_me  {
+    text-align: center;
+    left: 3%;
+    top: 20%;
+    font-size: 0%;
+}
+
+.bx-mail-send {
+    position: absolute;
+    font-size: 110%;
+    top: 23%;
+    left: 13%;
+    color:  #ff009d;
+}
+/*************************************************************************/
+    .social-btn {
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ff009d;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        background: #333;
+        margin: 5px;
+        transition: 0.3s;
+        justify-content: center;
+    }
+
+    #instagram {
+        position: absolute;
+        top: 395%;
+        left: -170%;
+    }
+
+    #twitter {
+        position: absolute;
+        top: 395%;
+        left: -70%;
+    }
+
+    #github {
+        position: absolute;
+        top: 395%;
+        left: 27%;
+    }
+
+    #youtube {
+        position: absolute;
+        top: 520%;
+        left: -170%;
+    }
+
+    #twitch {
+        position: absolute;
+        top: 520%;
+        left: -70%;
+    }
+
+    .bxl-discord, #discord {
+        width: 0%;
+        font-size: 0%;
+    }
+}
+
+@media (max-width: 250px) {
+    .container {
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(11,1fr);
+        grid-template-areas: 
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1 n1 n1"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n3 n3 n3 n3 n3 n3 n3"
+        "n2 n2 n2 n4 n4 n4 n4"
+        "n2 n2 n2 n5 n5 n8 n8"
+        "n6 n6 n6 n6 n9 n9 n9"
+        "n7 n7 n7 n7 n7 n7 n7"
+        "n7 n7 n7 n7 n7 n7 n7";
+    }
+
+
+
+    h2 {
+        font-size: ""px;
+    }
+
+
+/*==================================================*/
+                                     /* TARGET == 1 */
+/*==================================================*/
+    h1 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        top: 6%;
+        font-size: 13px;
+    }
+
+    p {
+        top: 26%;
+        font-size: 12px;
+    }
+
+    #skills {
+        font-size: 21px;
+        left: 3%;
+        top: 2%;
+    }
+    .container-1 {
+        top: 25%;
+        gap: 10px;
+    }
+
+    .item-1 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 150%;
+    }
+
+    .img13 {
+        width: 200%;
+        margin-left: -13%;
+    }
+
+    .container-2{
+        top: 22%;
+        gap: 10px;
+    }
+
+    .item-2 {
+        align-items: center;
+        /*background-color: #000000;*/
+        width: 160%;
+    }
+
+    #about, #titles {
+        font-size: 0%;
+    }
+
+    .bxs-user {
+        font-size: 180%;
+        left: 25%;
+    }
+
+    .bx-bookmarks {
+        font-size: 120%;
+        left: 5%;
+        top: 20%;
+    }
+/*************************************************************************/
+    #proyects  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+    
+    .bx-code-alt {
+        position: absolute;
+        font-size: 160%;
+        top: 10%;
+        left: 27%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+
+/*************************************************************************/
+    #contact_me  {
+        text-align: center;
+        left: 3%;
+        top: 20%;
+        font-size: 0%;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        font-size: 110%;
+        top: 23%;
+        left: 10%;
+        color:  #ff009d;
+    }
+/*************************************************************************/
+    .social-btn {
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ff009d;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        background: #333;
+        margin: 5px;
+        transition: 0.3s;
+        justify-content: center;
+    }
+
+    #instagram {
+        position: absolute;
+        top: 395%;
+        left: -170%;
+    }
+
+    #twitter {
+        position: absolute;
+        top: 395%;
+        left: -70%;
+    }
+
+    #github {
+        position: absolute;
+        top: 395%;
+        left: 27%;
+    }
+
+    #youtube {
+        position: absolute;
+        top: 520%;
+        left: -170%;
+    }
+
+    #twitch {
+        position: absolute;
+        top: 520%;
+        left: -70%;
+    }
+
+    .bxl-discord, #discord {
+        width: 0%;
+        font-size: 0%;
+    }
+}

@@ -86,5 +86,35 @@ document.addEventListener('DOMContentLoaded', function() {
             container.classList.remove('show-submenu2');
         }
     });
+
+
+
 });
 
+    document.addEventListener('DOMContentLoaded', function() {
+        const imgCert2 = document.querySelector('.img_cert');
+        const imgEcppt = document.getElementById('ecppt');
+        const container = document.querySelector('.container-6-part-6');
+
+        imgCert2.addEventListener('click', function() {
+            if (container.classList.contains('show-submenu1')) {
+                container.classList.remove('show-submenu1');
+                container.classList.remove('show-submenu3'); // Cierra también submenu2
+            } else {
+                container.classList.add('show-submenu1');
+            }
+        });
+
+        imgEcppt.addEventListener('click', function(event) {
+            event.stopPropagation(); // Evita que se dispare el evento click de imgCert
+            container.classList.toggle('show-submenu3');
+        });
+
+        // Opcional: para que los submenús se oculten al hacer clic fuera de ellos
+        document.addEventListener('click', function(event) {
+            if (!container.contains(event.target)) {
+                container.classList.remove('show-submenu1');
+                container.classList.remove('show-submenu3');
+            }
+        });
+    });

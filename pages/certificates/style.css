@@ -33,7 +33,6 @@ body {
 .container {
     position: absolute;
     width: 99.5%;
-    outline: 1px solid #717571;
     height: 97%;
     left: 0%;
     display: grid;
@@ -54,11 +53,26 @@ body {
 
 .item1 {
     align-items: center;
-    background: linear-gradient(135deg, #ff2600, #ff009d);
-    border-radius: 0px 21px 21px 0px;
+    /*background: linear-gradient(135deg, #ff2600, #ff009d);*/
+    border-radius: 0px 21px 21px 0px ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(255, 255, 255, 0.123);
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+
+.item1::-webkit-scrollbar {
+  width: 1px;
+}
+
+.item1::-webkit-scrollbar-track {
+  background-color: transparent; /* Color de fondo del scrollbar */
+}
+
 
 .item1 {
     grid-area: n1;
@@ -66,62 +80,120 @@ body {
 
 .item2 {
     align-items: center;
-    background: linear-gradient(135deg, #ff2600, #ff009d);
     border-radius: 0px 0px 0px 0px;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .item2 {
     grid-area: n2;
 }
-/*
-.item {
-    font-size: 2rem;
-    color: #ffffff;
-    font-family: sans-serif;
-    text-align: center;
-    border-radius: 16px;
 
-    background: linear-gradient(135deg, #ff2600, #ff009d);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.9px);
-    -webkit-backdrop-filter: blur(2.9px);
-    border: 1px solid rgba(255, 255, 255, 0.037);
+
+/*******************************************************************************/
+
+.nav {
+  width: 100%;
+  margin-top: 25%;
 }
 
-*/
-
-   /* Estilos para el menú desplegable */
-.submenu {
-    display: none;
-    list-style-type: none; /* Quita los marcadores de lista */
-    margin-bottom: 20px; /* Separación entre listas */
-    margin-top: 0; /* Elimina el margen superior */
-    padding-left: 0; /* Quita el relleno izquierdo */
-}
-.submenu li {
-    padding: 5px 0; /* Ajusta el espacio entre las opciones */
-}
-.active {
-    display: block;
+.list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
 }
 
-ul {
-    position: absolute;
-    list-style-type: none; /* Quita los marcadores de lista */
-    margin-bottom: 20px;
-    margin: 2%; /* Separación entre listas */
-    margin-top: 20%; /* Elimina el margen superior */
-    padding-left: 5%; /* Quita el relleno izquierdo */
+.list_items {
+  list-style: none;
+  width: 100%;
+  overflow: hidden;
 }
 
-li {
-    font-size: 40%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.nav_link {
+  color: #ffffff;
+  display: block;
+  padding:  15px 0;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-#opcion2 {
-    position: relative;
-    top: 20%;
+.nav_link_inside {
+  margin-left: 2%;
+}
+
+.nav_link_inside:hover {
+  background: linear-gradient(135deg, #ff2600, #ff009d);
+  border-radius: 10px;
+}
+
+.list_show {
+  width: 85%;
+  margin-left: -0%;
+  border-left: 2px solid #ff2600;
+  list-style: none;
+  transition: height .4s;
+  height: 0;
+}
+
+.link_inside {
+  border-radius: 6px;
+  padding-left: 20px;
+}
+
+.arrow .list_arrow {
+  transform: rotate(90deg);
+}
+
+.list_arrow {
+  margin-left: auto;
+  transition: transform 0.3s;
+
+}
+
+i {
+  position: absolute;
+  left: 85%;
+  margin-top: -9%;
+}
+
+.list_items:hover {
+  background-color: linear-gradient(135deg, #ff2600, #ff009d);
+  border-radius: 10px;
+  color: #000000;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/********************************************/
+
+.images_cursos_dev {
+  background: #464140;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 30%;
+  border-radius: 10px;
+
+}
+
+.firts_line {
+  position: relative;
+  top: 4%;
+  margin: 12px;
+  left: 2%;
+}
+
+img:hover {
+  
 }

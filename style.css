@@ -518,7 +518,7 @@ p {
 
 #hr11 {
   position: absolute;
-  top: 310%;
+  top: 270%;
   width: 40%;
   height: 0.75%;
   left: 30%;
@@ -845,7 +845,7 @@ p {
   color: #00c3ff;
 }
 
-.bxl-linkedin {
+/*.bxl-linkedin*/.bxl-spotify {
   top: 213%;
   left: 50%;
 }
@@ -854,10 +854,12 @@ p {
   color: #0026ff;
 }
 
+/*
 .bxl-spotify {
   top: 255%;
   left: -10%;
 }
+*/
 
 .bxl-spotify:hover {
   color: #37ff00;
@@ -884,7 +886,7 @@ p {
 /*****************************************************************************************/
 .container-3 {
     width: 45%;
-    height: 50%;
+    height: 37%;
     margin-left: 15%;
     grid-area: n3;    
     /* From https://css.glass */
@@ -899,14 +901,13 @@ p {
 .subcontainer3 {
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
     grid-template-areas: 
     "n1"
     "n2"
     "n3"
     "n4"
-    "n5"
-    "n6";
+    "n5";
 }
 
 .subcontainer-3-1 {
@@ -925,7 +926,7 @@ p {
 
 #hr1 {
     position: absolute;
-    top: 13%;
+    top: 17%;
 }
 
 .subcontainer-3-2 {
@@ -934,7 +935,7 @@ p {
 
 #hr2 {
     position: absolute;
-    top: 30%;
+    top: 38%;
 }
 .subcontainer-3-3 {
     grid-area: n3;
@@ -942,7 +943,7 @@ p {
 
 #hr3 {
     position: absolute;
-    top: 47%;
+    top: 56%;
 }
 
 .subcontainer3-4 {
@@ -960,12 +961,137 @@ p {
 
 #hr20 {
   position: absolute;
-  top: 81%;
+  top: 76%;
 }
 
 /*****************************************************************************************/
+.img_cert {
+  position: absolute;
+  width: 22%;
+  left: 10%;
+  top: 25%;
+  transition: transform 0.2s ease-in-out, filter 0.3s ease-in-out;
+}
 
 
+
+.certifications_imgs {
+  width: 33%; /* Ajusta según sea necesario */  
+  filter: url(#drop-shadow) grayscale(100%);
+  border-radius: 12px;
+
+}
+
+.submenu {
+  position: absolute;
+  display: none;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 0px 16px 16px 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(3.7px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#submenu1 {
+  top: 15%;
+  left: 0%;
+  width: 68%;
+  height: 85%;
+}
+
+#submenu2 {
+  border-radius: 14px;
+  top: 19%;
+  left: 28%;
+  width: 35%;
+  height: 65%;
+  padding: 20px; /* Ajusta según sea necesario */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.show-submenu1 #submenu1 {
+  display: block;
+  opacity: 1;
+}
+
+.show-submenu1 .img_cert {
+  transform: translateX(290%); /* Ajusta según sea necesario */
+}
+
+.show-submenu2 #submenu2 {
+  display: block;
+  opacity: 1;
+}
+
+#ejpt {
+  position: absolute;
+  top: 4%;
+  left: 5%;
+}
+
+.explication_exam, #colum_1 {
+  font-weight: bolder;
+}
+
+ul, .enunciados {
+  list-style-type: none; /* Elimina los puntos */
+  padding: 0; /* Elimina el padding por defecto */
+}
+
+.puntos {
+  list-style-type: circle;
+  margin-left: 10%;
+}
+
+li.obj_exam {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+  gap: 10px; /* Espacio entre columnas */
+}
+
+/* Estilos para columnas en el segundo li */
+.two-columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px; /* Añadir margen entre columnas */
+  margin-right: 10px; /* Espacio entre columnas */
+}
+
+.column:last-child {
+  margin-right: 0; /* Sin margen derecho en la última columna */
+}
+
+.ejpt_caracterist {
+  position: absolute;
+  width: 50%;
+  left: 48%;
+}
+
+em {
+  font-weight: bold;
+}
+
+
+.submenu::-webkit-scrollbar {
+  width: 1px;
+  background-color: transparent;
+}
+
+.submenu::-webkit-scrollbar-track {
+  width: 1px;
+  background-color: transparent;
+
+}
 /*****************************************************************************************/
 
 h1 {

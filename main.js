@@ -1,340 +1,37 @@
 
-
-//MOSTRAR CONTAINER 3 Y OCULTAR CONTAINER 2
 document.addEventListener('DOMContentLoaded', function() {
-    // Inicialmente, muestra el contenido de container-1 y container2-part2
+    // Inicialización: mostrar solo el primer container
     document.querySelector('.container-1').style.display = 'block';
     document.querySelector('.container-2-part-2').style.display = 'block';
-
-
-    // Oculta container3-part3
     document.querySelector('.container-3-part-3').style.display = 'none';
-    document.querySelector('.container-5-part-5').style.display = 'none';
-
-    // Agrega un evento de clic al ícono bx-code
-    document.getElementById('icon-code').addEventListener('click', function() {
-        // Oculta container2-part2
-        document.querySelector('.container-2-part-2').style.display = 'none';
-
-        // Muestra container3-part3
-        document.querySelector('.container-3-part-3').style.display = 'block';
-    });
-
-    document.getElementById('icon-user').addEventListener('click', function() {
-         // Oculta container3-part3
-        document.querySelector('.container-3-part-3').style.display = 'none';
-        
-        
-        // Muestra container2-part2
-        document.querySelector('.container-2-part-2').style.display = 'block';
-    });
-
-///////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////
-
-    const container1Content = document.querySelector('.container-1 .subcontainer-1-2');
-    container1Content.style.position = 'absolute';
-    container1Content.style.left = '50%';
-    container1Content.style.transform = 'translateX(-50%)';
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
- // MOSTRAR CONTAINER 5 Y OCULTAR CONTAINER 2
-document.addEventListener('DOMContentLoaded', function() {
-    // Inicialmente, muestra el contenido de container-1 y container2-part2
-    document.querySelector('.container-1').style.display = 'block';
-    document.querySelector('.container-2-part-2').style.display = 'block';
-    
-
-    // Oculta container3-part3
-    document.querySelector('.container-3-part-3').style.display = 'none';
-    document.querySelector('.container-5-part-5').style.display = 'none';
-
-    // Agrega un evento de clic al ícono bx-mail
-    document.getElementById('icon-gmail').addEventListener('click', function() {
-        // Oculta container2-part2
-        document.querySelector('.container-2-part-2').style.display = 'none';
-
-        // Muestra container3-part3
-        document.querySelector('.container-5-part-5').style.display = 'block';
-    });
-
-    document.getElementById('icon-user').addEventListener('click', function() {
-         // Oculta container5-part5
-        document.querySelector('.container-5-part-5').style.display = 'none';
-        
-        
-        // Muestra container2-part2
-        document.querySelector('.container-2-part-2').style.display = 'block';
-    });
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    const container1Content = document.querySelector('.container-1 .subcontainer-1-2');
-    container1Content.style.position = 'absolute';
-    container1Content.style.left = '50%';
-    container1Content.style.transform = 'translateX(-50%)';
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
- // MOSTRAR CONTAINER 6 Y OCULTAR CONTAINER 3
- document.addEventListener('DOMContentLoaded', function() {
-    // Inicialmente, muestra el contenido de container-1 y container2-part2
-    document.querySelector('.container-1').style.display = 'block';
-    document.querySelector('.container-2-part-2').style.display = 'block';
-    
-
-    // Oculta container3-part3
     document.querySelector('.container-6-part-6').style.display = 'none';
 
-    // Agrega un evento de clic al ícono bx-mail
-    document.getElementById('icon-certification').addEventListener('click', function() {
-        // Oculta container2-part2
+    // Función para ocultar todos los containers
+    function hideAllContainers() {
         document.querySelector('.container-2-part-2').style.display = 'none';
-
-        // Muestra container3-part3
-        document.querySelector('.container-6-part-6').style.display = 'block';
-    });
-
-    document.getElementById('icon-user').addEventListener('click', function() {
-         // Oculta container5-part5
+        document.querySelector('.container-3-part-3').style.display = 'none';
         document.querySelector('.container-6-part-6').style.display = 'none';
-        
-        
-        // Muestra container2-part2
+    }
+
+    // Mostrar container-2-part-2 cuando se hace clic en icon-user
+    document.getElementById('icon-user').addEventListener('click', function() {
+        hideAllContainers();
         document.querySelector('.container-2-part-2').style.display = 'block';
     });
 
-///////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////
-
-    const container1Content = document.querySelector('.container-1 .subcontainer-1-2');
-    container1Content.style.position = 'absolute';
-    container1Content.style.left = '50%';
-    container1Content.style.transform = 'translateX(-50%)';
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    const container1 = document.querySelector('.subcontainer-1-1', '.container-1');
-    
-    // Agregar una clase para bloquear los estilos al cargar la página
-    container1.classList.add('blocked');
-
-    // Función para desbloquear los estilos cuando sea necesario
-    function unblockContainer1() {
-        container1.classList.remove('blocked');
-    }
-    function unblockContainer1() {
-        container1.classList.remove('blocked');
-    }
-
-    // Evento de clic en el icono de usuario para desbloquear container-1
-    const iconUser = document.getElementById('icon-user');
-    iconUser.addEventListener('click', unblockContainer1);
-});
-
-
- // MOSTRAR CONTAINER 6 Y OCULTAR CONTAINER 3
- document.addEventListener('DOMContentLoaded', function() {
-    // Inicialmente, muestra el contenido de container-1 y container2-part2
-    document.querySelector('.container-1').style.display = 'block';
-    document.querySelector('.container-2-part-2').style.display = 'block';
-    
-
-    // Oculta container3-part3
-    document.querySelector('.container-3-part-3').style.display = 'none';
-
-    // Agrega un evento de clic al ícono bx-mail
+    // Mostrar container-3-part-3 cuando se hace clic en icon-code
     document.getElementById('icon-code').addEventListener('click', function() {
-        // Oculta container2-part2
-        document.querySelector('.container-6-part-6').style.display = 'none';
-
-        // Muestra container3-part3
-        document.querySelector('.container3-part-3').style.display = 'block';
-    });
-
-    document.getElementById('icon-certification').addEventListener('click', function() {
-         // Oculta container5-part5
-        document.querySelector('.container-3-part-3').style.display = 'none';
-        
-        
-        // Muestra container2-part2
-        document.querySelector('.container-6-part-6').style.display = 'block';
-    });
-
-///////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////
-
-    const container1Content = document.querySelector('.container-1 .subcontainer-1-2');
-    container1Content.style.position = 'absolute';
-    container1Content.style.left = '50%';
-    container1Content.style.transform = 'translateX(-50%)';
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
- // MOSTRAR CONTAINER 6 Y OCULTAR CONTAINER 3
- document.addEventListener('DOMContentLoaded', function() {
-    // Inicialmente, muestra el contenido de container-1 y container2-part2
-    document.querySelector('.container-1').style.display = 'block';
-    document.querySelector('.container-2-part-2').style.display = 'block';
-    
-
-    // Oculta container3-part3
-    document.querySelector('.container--part-3').style.display = 'none';
-
-    // Agrega un evento de clic al ícono bx-mail
-    document.getElementById('icon-code').addEventListener('click', function() {
-        // Oculta container2-part2
-        document.querySelector('.container-5-part-5').style.display = 'none';
-
-        // Muestra container3-part3
+        hideAllContainers();
         document.querySelector('.container-3-part-3').style.display = 'block';
     });
 
-    document.getElementById('icon-gmail').addEventListener('click', function() {
-         // Oculta container5-part5
-        document.querySelector('.container-3-part-3').style.display = 'none';
-        
-        
-        // Muestra container2-part2
-        document.querySelector('.container-5-part-5').style.display = 'block';
-    });
-
-///////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////
-
-    const container1Content = document.querySelector('.container-1 .subcontainer-1-2');
-    container1Content.style.position = 'absolute';
-    container1Content.style.left = '50%';
-    container1Content.style.transform = 'translateX(-50%)';
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-//MOSTRAR CONTAINER 3 Y OCULTAR CONTAINER 2
-document.addEventListener('DOMContentLoaded', function() {
-    // Inicialmente, muestra el contenido de container-1 y container2-part2
-    document.querySelector('.container-1').style.display = 'block';
-    document.querySelector('.container-2-part-2').style.display = 'block';
-
-
-    // Oculta container3-part3
-    document.querySelector('.container-3-part-3').style.display = 'none';
-    document.querySelector('.container-5-part-5').style.display = 'none';
-
-///////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////
-//     MONSTART CONTAINER-6 Y  OCULTAR EL CONTAINER-2
-    // Agrega un evento de clic al ícono bx-code
-    document.getElementById('icon-gmail').addEventListener('click', function() {
-        // Oculta container2-part2
-        document.querySelector('.container-6-part-6').style.display = 'none';
-
-        // Muestra container3-part3
-        document.querySelector('.container-5-part-5').style.display = 'block';
-    });
-
+    // Mostrar container-6-part-6 cuando se hace clic en icon-certification
     document.getElementById('icon-certification').addEventListener('click', function() {
-         // Oculta container3-part3
-        document.querySelector('.container-5-part-5').style.display = 'none';
-        
-        
-        // Muestra container2-part2
+        hideAllContainers();
         document.querySelector('.container-6-part-6').style.display = 'block';
     });
 
-
-///////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////
-//     MONSTART CONTAINER-3 Y  OCULTAR EL CONTAINER-2
-    // Agrega un evento de clic al ícono bx-code
-    document.getElementById('icon-gmail').addEventListener('click', function() {
-        // Oculta container2-part2
-        document.querySelector('.container-3-part-3').style.display = 'none';
-
-        // Muestra container3-part3
-        document.querySelector('.container-5-part-5').style.display = 'block';
-    });
-
-    document.getElementById('icon-code').addEventListener('click', function() {
-         // Oculta container3-part3
-        document.querySelector('.container-5-part-5').style.display = 'none';
-        
-        
-        // Muestra container2-part2
-        document.querySelector('.container-3-part-3').style.display = 'block';
-    });
-
-///////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////
-//     MONSTART CONTAINER-5 Y  OCULTAR EL CONTAINER-2
-    // Agrega un evento de clic al ícono bx-code
-    document.getElementById('icon-gmail').addEventListener('click', function() {
-        // Oculta container2-part2
-        document.querySelector('.container-2-part-2').style.display = 'none';
-
-        // Muestra container3-part3
-        document.querySelector('.container-5-part-5').style.display = 'block';
-    });
-
-    document.getElementById('icon-user').addEventListener('click', function() {
-         // Oculta container3-part3
-        document.querySelector('.container-5-part-5').style.display = 'none';
-        
-        
-        // Muestra container2-part2
-        document.querySelector('.container-2-part-2').style.display = 'block';
-    });
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
+    // Centrar el contenido de container-1
     const container1Content = document.querySelector('.container-1 .subcontainer-1-2');
     container1Content.style.position = 'absolute';
     container1Content.style.left = '50%';
@@ -359,3 +56,35 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const imgCert = document.querySelector('.img_cert');
+    const imgEjpt = document.getElementById('ejpt');
+    const container = document.querySelector('.container-6-part-6');
+
+    imgCert.addEventListener('click', function() {
+        if (container.classList.contains('show-submenu1')) {
+            container.classList.remove('show-submenu1');
+            container.classList.remove('show-submenu2'); // Cierra también submenu2
+        } else {
+            container.classList.add('show-submenu1');
+        }
+    });
+
+    imgEjpt.addEventListener('click', function(event) {
+        event.stopPropagation(); // Evita que se dispare el evento click de imgCert
+        container.classList.toggle('show-submenu2');
+    });
+
+    // Opcional: para que los submenús se oculten al hacer clic fuera de ellos
+    document.addEventListener('click', function(event) {
+        if (!container.contains(event.target)) {
+            container.classList.remove('show-submenu1');
+            container.classList.remove('show-submenu2');
+        }
+    });
+});
+

@@ -975,11 +975,16 @@ p {
 
 
 
-.certifications_imgs {
-  width: 33%; /* Ajusta según sea necesario */  
+.certifications_imgs_red_team {
+  width: 30%; /* Ajusta según sea necesario */  
   filter: url(#drop-shadow) grayscale(100%);
   border-radius: 12px;
+}
 
+.certifications_imgs_red_team:hover {
+  filter: url(#drop-shadow) grayscale(0%);
+
+  box-shadow: 0px 0px 15px rgb(244, 0, 0);
 }
 
 .submenu {
@@ -999,20 +1004,20 @@ p {
 #submenu1 {
   top: 15%;
   left: 0%;
-  width: 68%;
+  width: 80%;
   height: 85%;
 }
 
-#submenu2 {
+#submenu2, #submenu3 {
   border-radius: 14px;
   top: 19%;
   left: 28%;
-  width: 35%;
+  width: 40%;
   height: 65%;
   padding: 20px; /* Ajusta según sea necesario */
   overflow-x: hidden;
   overflow-y: scroll;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.392);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -1022,10 +1027,11 @@ p {
 }
 
 .show-submenu1 .img_cert {
-  transform: translateX(290%); /* Ajusta según sea necesario */
+  width: 18%;
+  transform: translateX(395%); /* Ajusta según sea necesario */
 }
 
-.show-submenu2 #submenu2 {
+.show-submenu2 #submenu2, .show-submenu3 #submenu3 {
   display: block;
   opacity: 1;
 }
@@ -1033,7 +1039,19 @@ p {
 #ejpt {
   position: absolute;
   top: 4%;
-  left: 5%;
+  left: 2%;
+}
+
+#ecppt {
+  position: absolute;
+  top: 4%;
+  left: 35%;
+}
+
+#ewptx {
+  position: absolute;
+  top: 4%;
+  left: 68%;
 }
 
 .explication_exam, #colum_1 {

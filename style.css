@@ -998,7 +998,7 @@ p {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.7px);
   -webkit-backdrop-filter: blur(3.7px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.238);
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
 }
@@ -1019,8 +1019,8 @@ p {
   padding: 20px; /* Ajusta según sea necesario */
   overflow-x: hidden;
   overflow-y: scroll;
-  background: rgba(0, 0, 0, 0.392);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(120, 119, 119, 0.267);
+  border: 1px solid rgba(255, 255, 255, 0.397);
 }
 
 .show-submenu1 #submenu1 {

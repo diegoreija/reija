@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
+
     const imgCert = document.querySelector('.img_cert');
     const imgEjpt = document.getElementById('ejpt');
     const container = document.querySelector('.container-6-part-6');
@@ -52,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
             container.classList.add('show-submenu1');
         }
     });
-
+/*
     imgEjpt.addEventListener('click', function(event) {
         event.stopPropagation(); // Evita que se dispare el evento click de imgCert
         container.classList.toggle('show-submenu2');
@@ -66,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-
+*/
 
 });
 

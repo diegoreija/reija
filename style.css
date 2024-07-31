@@ -969,7 +969,8 @@ p {
 /*****************************************************************************************/
 .img_cert {
   position: absolute;
-  width: 22%;
+  width: 22%;  
+
   left: 10%;
   top: 25%;
   transition: transform 0.2s ease-in-out, filter 0.3s ease-in-out;
@@ -979,14 +980,12 @@ p {
 
 .certifications_imgs_red_team {
   width: 30%; /* Ajusta según sea necesario */  
-  filter: url(#drop-shadow) grayscale(100%);
-  border-radius: 12px;
+  border-radius: 12px;  
+  filter: grayscale(100%);
 }
 
 .certifications_imgs_red_team:hover {
-  filter: url(#drop-shadow) grayscale(0%);
-
-  box-shadow: 0px 0px 15px rgb(244, 0, 0);
+  box-shadow: 0px 0px 25px #ff009d;
 }
 
 .submenu {
@@ -998,7 +997,7 @@ p {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.7px);
   -webkit-backdrop-filter: blur(3.7px);
-  border: 1px solid rgba(255, 255, 255, 0.238);
+  border: 1px solid rgba(19, 18, 18, 0.468);
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
 }
@@ -1055,6 +1054,13 @@ p {
   top: 4%;
   left: 68%;
 }
+
+#emapt {
+  position: absolute;
+  top: 31%;
+  left: 2%;
+}
+
 
 .explication_exam, #colum_1 {
   font-weight: bolder;

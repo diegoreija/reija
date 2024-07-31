@@ -139,11 +139,13 @@ section {
     background: linear-gradient(150deg, #ff2600, #ff009d);
     border-radius: 16px 16px 0px 0px;
     width: 100%;
-    height: 30%;
+    height: 100%;
 }
 
 .subcontainer-1-2 {
-    grid-area: n2;
+  position: absolute;
+  grid-area: n2;
+  top: 0%;
 }
 
 span{

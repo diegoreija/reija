@@ -331,7 +331,12 @@
         width: 100%;
         height: 100%;
         margin-top: 2%;
-        grid-area: n1;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.7px);
+        -webkit-backdrop-filter: blur(3.7px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
     }
     
     .subcontainer {
@@ -342,6 +347,12 @@
         "n11 n11 n11 n2 n2 n2 n2 n2"
         "n11 n11 n11 n3 n3 n3 n3 n3"
         "n11 n11 n11 n3 n3 n3 n3 n3";
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.7px);
+        -webkit-backdrop-filter: blur(3.7px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .subcontainer-1-1 {
@@ -485,7 +496,6 @@
         top: 25%;
         width: 93%;
         max-height: 60%;
-        grid-area: n2;
     }
 
     #welcome {
@@ -500,7 +510,6 @@
         left: 10.5%;
         margin-top: -5%;
         height: 100%;
-        grid-area: n3;    
     }
 
     .bx-user {

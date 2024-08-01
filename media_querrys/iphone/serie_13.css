@@ -306,8 +306,8 @@
     
     .container {
         position: absolute;
-        margin-left: 0%;
-        margin-top: -5%;
+        left: 0%;
+        top: 0%;
         width: 94%;
         height: 94%;
         display: grid;
@@ -485,6 +485,7 @@
         top: 25%;
         width: 93%;
         max-height: 60%;
+        grid-area: n2;
     }
 
     #welcome {

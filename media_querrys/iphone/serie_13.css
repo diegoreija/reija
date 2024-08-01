@@ -1,14 +1,15 @@
 
 /************************************************************/
-/*          IPHONE 13 MINI                      */
-
-@media (width: 375px) and (height: 812px) {
-
+/*                      IPHONE 13                           */
+@media (width: 390px) and (height: 844px) {
+    
     .container {
-        margin-left: 0%;
-        margin-top: -5%;
-        width: 94%;
+        position: relative;
+        right: 2%;
+        top: 2%;
+        width: 92%;
         height: 94%;
+        gap: 2%;
         display: grid;
         grid-template-columns: repeat(5,1fr);
         grid-template-rows: repeat(10,1fr);
@@ -27,342 +28,38 @@
 
     .container-1 {
         width: 100%;
-        height: 90%;
-        margin-top: 0%;
+        height: 100%;
         grid-area: n1;
+        display: flex;
     }
-    
+
     .subcontainer {
         display: grid;
-        grid-template-columns: repeat(8,1fr);
+        grid-template-columns: repeat(9,1fr);
         grid-template-rows: repeat(3,1fr);
         grid-template-areas: 
-        "n1 n1 n1 n2 n2 n2 n2 n2"
-        "n1 n1 n1 n3 n3 n3 n3 n3"
-        "n1 n1 n1 n3 n3 n3 n3 n3";
+        "n1 n1 n1 n2 n2 n2 n2 n2 n2"
+        "n1 n1 n1 n3 n3 n3 n3 n3 n3"
+        "n1 n1 n1 n3 n3 n3 n3 n3 n3";
     }
 
     .subcontainer-1-1 {
-        grid-area: n1;
-        width: 87%;
-        height: 100%;
-        border-radius: 16px 0px 0px 16px;
-    }
-
-    h2 {
-        font-size: 21px;
-        margin-top: 1%;
-        margin-left: -6%;
-        white-space: nowrap;
-    }
-
-    #hr8 {
-        position: absolute;
-        top: 61%;
-        left: 30%;
-    }
-
-    #hr9 {
-        position: absolute;
-        top: 80%;
-        width: 0.2%;
-        height: 99%;
-        left: 58%;
-    }
-
-    #hr10 {
-        top: 220%;
-        width: 0%;
-        height: 0.75%;
-        left: 30%;
-    }
-      
-    #hr11 {
-        top: 270%;
-        width: 0%;
-        height: 0.75%;
-        left: 30%;
-    }
-
-    p {
-        font-size: 8.5px;
-    }
-
-    .descriptions {
-        margin-top: 25%;
-        margin-left: -5%;
-    }
-
-    i {
-        font-size: 150%;
-        margin-left: 20%;
-        margin-top: 10%;
-        color: #42424c;    
-    }
-
-    #github-2 {
-        position: absolute;
-        top: 60%;
-        left: 48%;
-    }
-
-    .bxl-instagram {
-        position: absolute;
-        top: 60%;
-        left: 65%;
-    }
-
-    .bxl-twitter {
-        position: absolute;
-        top: 120%;
-        left: 48%;
-    }
-    
-    .bxl-spotify {
-        position: absolute;
-        top: 120%;
-        left: 65%;
-    }
-
-    #CV {
-        top: 70%;
-        left: 75%;
-    }
-
-    
-    .btn {
-        --border-color: linear-gradient(150deg, #ff2600, #ff009d);
-        --border-width: 0.1em;
-        --curve-size: 0.5em;
-        --blur: 30px;
-        --bg: rgb(17, 17, 17);
-        --color: #ffffff;
-        color: var(--color);
-        cursor: pointer;
         position: relative;
-        isolation: isolate;
-        display: inline-grid;
-        place-content: center;
-        padding: 0.2em 0.3em;
-        font-size: 10px;
-        font-weight: bolder;
-        border: 0;
-        text-transform: uppercase;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-        clip-path: polygon(
-          0% var(--curve-size),
-          var(--curve-size) 0,100% 0,
-          100% calc(100% - var(--curve-size)),
-          calc(100% - var(--curve-size)) 100%,
-           0 100%
-        );
-        transition: color 250ms;
-        white-space: nowrap;
-    }
-
-    #españa {
-        position: absolute;
-        top: 192%;
-        left: 45%;
-        width: 0%;
-    }
-      
-    #reino_unido {
-        position: absolute;
-        top: 193%;
-        width: 0%;
-        left: 60%;
-    }
-/********************************************************************************************************************************************/
-    .container-2-part-2,
-    .container-6-part-6,
-    .container-3-part-3 {
-        position: absolute;
-        top: 25%;
-        width: 93%;
-        max-height: 60%;
-    }
-
-    #welcome {
-        font-size: 32px;
-        top: 0%;
-        left: 2%;
-    }
-
-    .container-3 {
-        position: absolute;
         width: 100%;
-        left: 10.5%;
-        margin-top: -5%;
-        height: 100%;
-        grid-area: n3;    
-    }
-
-    .bx-user {
-        position: absolute;
-        font-size: 250%;
-        margin-left: 5%;
-        margin-top: 2.5%;
-    }
-
-    .bxs-award {
-        position: absolute;
-        font-size: 250%;
-        margin-left: 25%;
-        margin-top: -0.5%; 
-    }
-
-    .bx-code-alt {
-        position: absolute;
-        font-size: 250%;
-        margin-left: 45%;
-        margin-top: -4%; 
-    }
-
-    .bx-history {
-        position: absolute;
-        font-size: 250%;
-        margin-left: 65%;
-        margin-top: -7%; 
-    }
-
-    .bx-question-mark {
-        position: absolute;
-        font-size: 250%;
-        margin-left: 85%;
-        margin-top: -11%; 
-    }
-
-    #hr1 {
-        position: fixed;
-        top: 6%;
-        width: 0.2%;
-        height: 57%;
-        margin-left: 5%;
-    }
-
-    #hr2 {
-        position: fixed;
-        top: 6%;
-        width: 0.2%;
-        height: 57%;
-        margin-left: 25%;
-    }
-
-    #hr3 {
-        position: fixed;
-        top: 6%;
-        width: 0.2%;
-        height: 57%;
-        margin-left: 46%;
-    }
-
-    #hr20  {
-        position: fixed;
-        top: 6%;
-        width: 0.2%;
-        height: 57%;
-        margin-left: 67%;
-    }
-
-/********************************************************************************************************************************************/
-/********************************************************************************************************************************************/
-/********************************************************************************************************************************************/
-
-    .certifications_imgs_red_team {
-        width: 42%;  
-        filter: url(#drop-shadow) grayscale(100%);
-        border-radius: 5px; 
-    }
-
-    #ejpt {
-        position: absolute;
-        top: 4%;
-        left: 4%;
-    }
-      
-    #ecppt {
-        position: absolute;
-        top: 4%;
-        left: 52%;
-    }
-      
-    #ewptx {
-        position: absolute;
-        top: 27%;
-        left: 4%;
-    }
-
-    #emapt {
-        position: absolute;
-        top: 27%;
-        left: 52%;
-    }
-}
-/************************************************************/
-/*          IPHONE 13                           */
-@media (width: 390px) and (height: 844px) {
-    
-    .container {
-        position: absolute !important;
-        left: -1%;
-        top: 2%;
-        width: 94%;
-        height: 94%;
-        gap: 2%;
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-        grid-template-rows: repeat(10,1fr);
-        grid-template-areas: 
-        "n1 n1 n1 n1 n1"
-        "n1 n1 n1 n1 n1"
-        "n2 n2 n2 n2 n2"
-        "n2 n2 n2 n2 n2"
-        "n2 n2 n2 n2 n2"
-        "n2 n2 n2 n2 n2"
-        "n2 n2 n2 n2 n2"
-        "n2 n2 n2 n2 n2"
-        "n2 n2 n2 n2 n2"
-        "n3 n3 n3 n3 n3";
-    }
-
-    .container-1 {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        grid-area: n1;
-    }
-    
-    .subcontainer {
-        display: grid;
-        grid-template-columns: repeat(8,1fr);
-        grid-template-rows: repeat(3,1fr);
-        grid-template-areas: 
-        "n11 n11 n11 n22 n22 n22 n22 n22"
-        "n11 n11 n11 n33 n33 n33 n33 n33"
-        "n11 n11 n11 n33 n33 n33 n33 n33";
-        background: rgba(255, 255, 255, 0.03);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(3.7px);
-        -webkit-backdrop-filter: blur(3.7px);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-    }
-
-    .subcontainer-1-1 {
-        grid-area: n11;
-        width: 87%;
         height: 100%;
         border-radius: 16px 0px 0px 16px;
     }
 
     h2 {
-        font-size: 23px;
-        margin-top: -65%;
-        margin-left: -60%;
-        white-space: nowrap;
+        position: relative;
+        font-size: 20px;
+        top: 0%; /* Al estar en 0%, no se mueve desde su posición original */
+        left: 8%; /* Se desplaza 62% desde la izquierda */
+        white-space: nowrap; /* Evita que el texto se ajuste a varias líneas */
+        grid-area: n2;
     }
-
+    
+/*
     #hr8 {
         margin-top: -40%;
         width: 90%;
@@ -480,12 +177,12 @@
         top: 193%;
         width: 0%;
         left: 60%;
-    }
+    }*/
 /********************************************************************************************************************************************/
+/*
     .container-2-part-2,
     .container-6-part-6,
     .container-3-part-3 {
-        position: absolute;
         width: 100%;
         height: 100%;
         grid-area: n2;
@@ -498,7 +195,6 @@
     }
 
     .container-3 {
-        position: absolute;
         width: 100%;
         height: 100%;
         margin-left: 1%;
@@ -571,11 +267,11 @@
         height: 57%;
         margin-left: 67%;
     }
-
+*/
 /********************************************************************************************************************************************/
 /********************************************************************************************************************************************/
 /********************************************************************************************************************************************/
-
+/*
     .certifications_imgs_red_team {
         width: 42%;  
         filter: url(#drop-shadow) grayscale(100%);
@@ -604,5 +300,5 @@
         position: absolute;
         top: 27%;
         left: 52%;
-    }
+    }*/
 }

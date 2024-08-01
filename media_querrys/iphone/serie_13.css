@@ -42,7 +42,7 @@
         margin-top: 2%;
         grid-area: n1;
         background-color: #000000;
-      }
+    }
 
     .subcontainer {
         display: grid;
@@ -88,7 +88,7 @@
         left: 30%;
     }
       
-      #hr11 {
+    #hr11 {
         top: 270%;
         width: 0%;
         height: 0.75%;
@@ -105,11 +105,11 @@
     }
 
     p {
-        font-size: 9px;
+        font-size: 8.5px;
     }
 
     .descriptions {
-        margin-top: 17%;
+        margin-top: 16%;
         margin-left: -7%;
     }
 
@@ -355,6 +355,7 @@
 
 /************************************************************/
 /*          IPHONE 13 (IOS 15)                  */
+
 @media (max-width: 390px) and (max-height: 844px) {
     
     
@@ -381,13 +382,15 @@
     .container-6-part-6,
     .container-3-part-3 {
         position: fixed;
-        margin-top: 1.75%;
+        margin-top: 2.5%;
         width: 93%;
-        max-height: 61%;
+        max-height: 58%;
     }
 }
+
 /************************************************************/
 /*          IPHONE 13 MINI                      */
+/*
 @media (max-width: 375px) and (max-height: 812px) {
     .container-1 {
         width: 100%;
@@ -399,3 +402,4 @@
 
 
 }
+*/

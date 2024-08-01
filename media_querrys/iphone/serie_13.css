@@ -1,7 +1,7 @@
 
 /************************************************************/
 /*                      IPHONE 13                           */
-@media (width: 390px) and (height: 844px) {
+@media (max-width: 390px) and (max-height: 844px) {
     
     .container {
         position: relative;
@@ -12,10 +12,16 @@
         gap: 2%;
         display: grid;
         grid-template-columns: repeat(5,1fr);
-        grid-template-rows: repeat(10,1fr);
+        grid-template-rows: repeat(16,1fr);
         grid-template-areas: 
         "n1 n1 n1 n1 n1"
         "n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1"
+        "n1 n1 n1 n1 n1"
+        "n2 n2 n2 n2 n2"
+        "n2 n2 n2 n2 n2"
+        "n2 n2 n2 n2 n2"
+        "n2 n2 n2 n2 n2"
         "n2 n2 n2 n2 n2"
         "n2 n2 n2 n2 n2"
         "n2 n2 n2 n2 n2"
@@ -30,10 +36,9 @@
         width: 100%;
         height: 100%;
         grid-area: n1;
-        background-color: blue;
         display: grid;
     }
-/*
+
     .subcontainer {
         display: grid;
         grid-template-columns: repeat(9,1fr);
@@ -54,25 +59,26 @@
     h2 {
         position: relative;
         font-size: 20px;
-        top: 0%; 
-        left: 8%; /
+        margin-top: 3%; 
+        left: 7%;
         white-space: nowrap; 
         grid-area: n2;
     }
-    
+   
 
     #hr8 {
-        margin-top: -40%;
+        position: relative;
+        margin-top: -100%;
         width: 90%;
-        margin-left: -20%;
+        left: -20%;
     }
 
     #hr9 {
-        position: absolute;
-        margin-top: -120%;
+        position: relative;
+        top: 0%;
         width: 0.2%;
         height: 210%;
-        left: 54%;
+        left: 0%;
     }
 
     #hr10 {
@@ -94,11 +100,12 @@
     }
 
     .descriptions {
-        margin-top: -47%;
-        margin-left: -57%;
-        font-size: 12px;
+        position: relative;
+        margin-top: 0%;
+        left: 0%;
+        font-size: 10.5px;
     }
-
+ 
     i {
         font-size: 150%;
         margin-left: 20%;
@@ -107,15 +114,15 @@
     }
 
     .bxl-github {
-        position: absolute;
-        margin-top: -48%;
-        margin-left: 30%;
+        position: static;
+        top: 0%;
+        left: 0%;
     }
 
     .bxl-instagram {
-        position: absolute;
-        margin-top: -48%;
-        left: 15%;
+        position: relative;
+        margin-top: -50%;
+        left: 75%;
     }
 
     .bxl-twitter {
@@ -132,7 +139,7 @@
 
     #CV {
         top: 84%;
-        left: 76%;
+        left: 75%;
     }
 
     
@@ -178,9 +185,9 @@
         top: 193%;
         width: 0%;
         left: 60%;
-    }*/
+    }/**/
 /********************************************************************************************************************************************/
-/*
+
     .container-2-part-2,
     .container-6-part-6,
     .container-3-part-3 {
@@ -204,71 +211,71 @@
 
     .bx-user {
         position: absolute;
-        font-size: 250%;
-        margin-left: 5%;
-        margin-top: 2.5%;
+        font-size: 275%;
+        left: -14%;
+        top: -35%;
     }
 
     .bxs-award {
         position: absolute;
-        font-size: 250%;
-        margin-left: 25%;
-        margin-top: -0.5%; 
+        font-size: 275%;
+        left: 7%;
+        top: -35%; 
     }
 
     .bx-code-alt {
         position: absolute;
-        font-size: 250%;
-        margin-left: 45%;
-        margin-top: -4%; 
+        font-size: 275%;
+        left: 25%;
+        top: -35%; 
     }
 
     .bx-history {
         position: absolute;
-        font-size: 250%;
-        margin-left: 65%;
-        margin-top: -7%; 
+        font-size: 275%;
+        left: 45%;
+        top: -35%; 
     }
 
     .bx-question-mark {
         position: absolute;
-        font-size: 250%;
-        margin-left: 85%;
-        margin-top: -11%; 
+        font-size: 275%;
+        left: 62%;
+        top: -35%; 
     }
 
     #hr1 {
-        position: fixed;
-        top: 6%;
+        position: absolute;
+        top: 13%;
         width: 0.2%;
-        height: 57%;
-        margin-left: 5%;
+        height: 50%;
+        left: 22%;
     }
 
     #hr2 {
-        position: fixed;
-        top: 6%;
+        position: absolute;
+        top: 13%;
         width: 0.2%;
-        height: 57%;
-        margin-left: 25%;
+        height: 50%;
+        left: 42%;
     }
 
     #hr3 {
-        position: fixed;
-        top: 6%;
+        position: absolute;
+        top: 13%;
         width: 0.2%;
-        height: 57%;
-        margin-left: 46%;
+        height: 50%;
+        left: 61%;
     }
 
     #hr20  {
-        position: fixed;
-        top: 6%;
+        position: absolute;
+        top: 13%;
         width: 0.2%;
-        height: 57%;
-        margin-left: 67%;
+        height: 50%;
+        left: 81%;
     }
-*/
+/**/
 /********************************************************************************************************************************************/
 /********************************************************************************************************************************************/
 /********************************************************************************************************************************************/

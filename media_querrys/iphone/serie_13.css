@@ -192,7 +192,7 @@
     .container-6-part-6,
     .container-3-part-3 {
         width: 100%;
-        height: 100%;
+        height: 92%;
         grid-area: n2;
     }
 
@@ -207,6 +207,7 @@
         height: 100%;
         margin-left: 1%;
         grid-area: n3;
+        margin-top: -8%;
     }
 
     .bx-user {

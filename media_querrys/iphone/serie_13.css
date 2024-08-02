@@ -65,6 +65,11 @@
         grid-area: n2;
     }
    
+    .descricion_welcome {
+        position: relative;
+        font-size: 11px;
+        margin-top: -3%;
+    }
 
     #hr8 {
         position: relative;

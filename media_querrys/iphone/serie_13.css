@@ -107,7 +107,7 @@
     .descriptions {
         position: relative;
         margin-top: -1.5%;
-        margin-left: -12%;
+        margin-left: -14%;
         font-size: 10.5px;
     }
  
@@ -121,25 +121,25 @@
     .bxl-github {
         position: absolute;
         margin-top: 26%;
-        margin-left: 70%;
+        margin-left: 75%;
     }
 
     .bxl-instagram {
         position: absolute;
         margin-top: 26%;
-        left: 56%;
+        left: 61%;
     }
 
     .bxl-twitter {
         position: absolute;
         margin-top: 26%;
-        left: 68%;
+        left: 73%;
     }
     
     .bxl-spotify {
         position: absolute;
         margin-top: 26%;
-        left: 82%;
+        left: 87%;
     }
 
     #CV {

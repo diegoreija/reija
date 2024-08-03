@@ -159,10 +159,30 @@ span{
     margin-left: 3%;
 }
 
+.descricion_welcome_2 {
+  position: absolute;
+  top: 33%;
+}
+
+.descricion_welcome_3 {
+  position: absolute;
+  top: 59%;
+}
+
 h2 {
     font-size: 33px;
     margin-top: 29%;
     white-space: nowrap;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 17%;
+  white-space: nowrap;
+}
+
+#future {
+  margin-top: 12.25%;
 }
 
 .subcontainer-1-3 {
@@ -522,6 +542,22 @@ p {
   top: 270%;
   width: 40%;
   height: 0.75%;
+  left: 30%;
+}
+
+#hr12 {
+  position: absolute;
+  top: 26%;
+  width: 40%;
+  height: 0.25%;
+  left: 30%;
+}
+
+#hr13 {
+  position: absolute;
+  top: 55%;
+  width: 40%;
+  height: 0.25%;
   left: 30%;
 }
 

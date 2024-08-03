@@ -276,7 +276,7 @@
 
     #hr12 {
         position: absolute;
-        top: 32%;
+        top: 33%;
     }
 
     #hr13 {
@@ -295,24 +295,24 @@
 
     h3 {
         font-size: 13px;
-        margin-top: 7%;
+        margin-top: 6%;
         white-space: nowrap;
     }
       
     #future {
-        margin-top: 20%;
+        margin-top: 18.5%;
     }
 
     .descricion_welcome_2 {
         position: absolute;
         font-size: 11px;
-        top: 40%;
+        top: 39%;
     }
       
       .descricion_welcome_3 {
         position: absolute;
         font-size: 11px;
-        top: 75%;
+        top: 74%;
     }
 /**/
 /********************************************************************************************************************************************/

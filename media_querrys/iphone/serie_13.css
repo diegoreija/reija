@@ -68,7 +68,7 @@
     .descricion_welcome {
         position: relative;
         font-size: 11px;
-        margin-top: -3%;
+        margin-top: -8%;
     }
 
     #hr8 {
@@ -276,8 +276,14 @@
 
     #hr12 {
         position: absolute;
-        top: 30%;
+        top: 32%;
     }
+
+    #hr13 {
+        position: absolute;
+        top: 68%;
+    }
+
 
     #hr20  {
         position: absolute;
@@ -294,17 +300,19 @@
     }
       
     #future {
-        margin-top: 17%;
+        margin-top: 20%;
     }
 
     .descricion_welcome_2 {
         position: absolute;
-        top: 35%;
+        font-size: 11px;
+        top: 40%;
     }
       
       .descricion_welcome_3 {
         position: absolute;
-        top: 61%;
+        font-size: 11px;
+        top: 75%;
     }
 /**/
 /********************************************************************************************************************************************/

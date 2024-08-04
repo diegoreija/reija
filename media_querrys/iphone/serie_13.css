@@ -355,13 +355,13 @@
 /********************************************************************************************************************************************/
     .proyectos {
         position: absolute;
-        width: 90%;
+        width: 95%;
         margin: 5px;
         height: 85%;
         overflow-x: hidden;
         overflow-y: scroll;
         top: 10%;
-        left: 5%;
+        left: 1%;
         grid-area: n4;
         gap: 8px;
         display: grid;
@@ -375,9 +375,9 @@
     }
 
     .card {
-        height: 170px;
-        width: 125px;
-        top: 4%;
+        height: 130px;
+        width: 95px;
+        top: 6%;
         border-radius: 7px;
     }
   
@@ -390,14 +390,14 @@
     }
 
     .card-header p {
-        font-size: 10px;
+        font-size: 8px;
         margin: 0 0 1rem;
         color: #42424c;
     }
 
     .title {
         position: relative;
-        font-size: 16px;
+        font-size: 12px;
         text-align: center;
         font-family: 'Arial Black', sans-serif;
         margin: 20px;
@@ -406,8 +406,8 @@
 
     #icon-1, #icon-2, #icon-3, #icon-4, #icon-5 {
         position: absolute;
-        font-size: 15px;    
-        top: 28%;
+        font-size: 11px;    
+        top: 30%;
         background: linear-gradient(90deg,#ff4400,#ff005d);
         text-shadow: none;
         background-clip: text;
@@ -421,12 +421,14 @@
     .file4 { top: 500% }
 
 
-    #card-1 { grid-area: n1; left: 20%; }
-    #card-2 { grid-area: n2; left: 130%; }
-    #card-3 { grid-area: n3; left: -200%; top: 225% }
-    #card-4 { grid-area: n4; left: -100%; top: 225% }
-    #card-5 { grid-area: n5; left: 21%; top: 340% }
-    #card-6 { grid-area: n6; left: 15%; top: 340% }
+    #card-1 { grid-area: n1; left: 10%; }
+    #card-2 { grid-area: n2; left: 45%; }
+    #card-3 { grid-area: n3; left: 80% }
+
+    #card-4 { grid-area: n4; left: -320%; top: 175% }
+    #card-5 { grid-area: n5; left: 155%; top: 66% }
+    #card-6 { grid-area: n6; left: 190%; top: 66% }
+
     #card-7 { grid-area: n7; left: 15% }
     #card-8 { grid-area: n8; left: 15% }
     #card-9 { grid-area: n9 }
@@ -435,7 +437,7 @@
     #card-12 { grid-area: n12; left: 15% }
 
     .empresa {
-        font-size: 12px;
+        font-size: 10px;
         color: #42424c;
         top: 82%;
         left: 17%; 

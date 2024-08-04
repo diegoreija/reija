@@ -363,7 +363,6 @@
         top: 10%;
         left: 5%;
         grid-area: n4;
-        border: 2px solid red;
         gap: 8px;
         display: grid;
         grid-template-columns: repeat(4,1fr);

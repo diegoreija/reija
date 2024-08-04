@@ -348,4 +348,113 @@
         top: 31%;
         left: 52%;
     }/**/
+
+
+/********************************************************************************************************************************************/
+/********************************************************************************************************************************************/
+/********************************************************************************************************************************************/
+    .proyectos {
+        position: absolute;
+        width: 90%;
+        margin: 5px;
+        height: 85%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        top: 10%;
+        left: 5%;
+        grid-area: n4;
+        border: 2px solid red;
+        gap: 8px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4);
+        grid-template-areas: 
+        "n1 n2 n3 n4"
+        "n5 n6 n7 n8"
+        "n9 n10 n11 n12"
+        "n13 n14 n15 n16";
+    }
+
+    .card {
+        height: 170px;
+        width: 125px;
+        top: 4%;
+        border-radius: 7px;
+    }
+  
+    #fecha {
+        position: relative;
+        color: var(--color3);
+        text-align: right;
+        margin-top: 7%;
+        right: 10%;
+    }
+
+    .card-header p {
+        font-size: 10px;
+        margin: 0 0 1rem;
+        color: #42424c;
+    }
+
+    .title {
+        position: relative;
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Arial Black', sans-serif;
+        margin: 20px;
+        color: #42424c;
+    }
+
+    #icon-1, #icon-2, #icon-3, #icon-4, #icon-5 {
+        position: absolute;
+        font-size: 15px;    
+        top: 28%;
+        background: linear-gradient(90deg,#ff4400,#ff005d);
+        text-shadow: none;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+
+    .file1 { top: 5% }
+    .file2 { top: 75% }
+    .file3 { top: 145% }
+    .file4 { top: 500% }
+
+
+    #card-1 { grid-area: n1; left: 20%; }
+    #card-2 { grid-area: n2; left: 130%; }
+    #card-3 { grid-area: n3; left: -200%; top: 225% }
+    #card-4 { grid-area: n4; left: -100%; top: 225% }
+    #card-5 { grid-area: n5; left: 21%; top: 340% }
+    #card-6 { grid-area: n6; left: 15%; top: 340% }
+    #card-7 { grid-area: n7; left: 15% }
+    #card-8 { grid-area: n8; left: 15% }
+    #card-9 { grid-area: n9 }
+    #card-10 { grid-area: n10; left: 15% }
+    #card-11 { grid-area: n11; left: 15% }
+    #card-12 { grid-area: n12; left: 15% }
+
+    .empresa {
+        font-size: 12px;
+        color: #42424c;
+        top: 82%;
+        left: 17%; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+

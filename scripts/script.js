@@ -14,12 +14,6 @@ prevBtn.onclick = function(){
     showSlider('prev')
 }
 
-let runTimeOut 
-
-let runNextAuto = setTimeout(() => {
-    nextBtn.click()
-}, timeAutoNext)
-
 
 function resetTimeAnimation() {
     runningTime.style.animation = 'none'

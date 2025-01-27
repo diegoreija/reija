@@ -169,7 +169,7 @@ header nav .cabecera {
     .description_me {
         width: 85%;
         left: 7%;
-        top: 27%;
+        top: 30%;
         font-size: 18px;
         text-align: left;
     }
@@ -179,7 +179,7 @@ header nav .cabecera {
         width: 60%; /* Ajusta según el contenido */
         height: 6%; /* Ajusta según las imágenes */
         left:  7%;
-        top: 70%;
+        top: 77%;
         display: flex;
         gap: 8px; /* Espacio entre las imágenes */
     }

@@ -77,7 +77,7 @@ body {
     width: auto; /* Ajusta según el contenido */
     height: auto; /* Ajusta según las imágenes */
     left: 10%;
-    top: 83%;
+    top: 86%;
     display: flex;
     gap: 10px; /* Espacio entre las imágenes */
     justify-content: center; /* Centra las imágenes horizontalmente */
@@ -230,7 +230,7 @@ header nav .cabecera {
         position: absolute;
         width: 60%; /* Ajusta según el contenido */
         height: 6%; /* Ajusta según las imágenes */
-        left:  7%;
+        margin-left:  7%;
         top: 95%;
         display: flex;
         gap: 8px; /* Espacio entre las imágenes */

@@ -143,7 +143,7 @@
         MEDIAS QUERRYS DESKTOP DEFAULT
 */
 
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
   /* Estilos más específicos */
 
   #yo {
@@ -157,7 +157,7 @@
     width: 175px; /*modificar*/
     height: 265px;/*modificar*/
     display: flex;
-    left: 53.5%;
+    left: 63.5%;
     top: 20%;
     border-radius: 10px;
   }

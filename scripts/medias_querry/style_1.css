@@ -43,3 +43,48 @@
 
   }
   
+
+/* 428x926*/
+@media (max-width: 428px) and (max-height: 926px) {
+    /* Estilos más específicos */
+
+
+    .description {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        top: 27%;
+        font-size: 17px;
+    }
+
+    .social_medias {
+        width: 60%; /* Ajusta según el contenido */
+        height: 10%; /* Ajusta según las imágenes */
+        left:  7%;
+        top: 70%;
+        display: flex;
+        gap: 8px; /* Espacio entre las imágenes */
+        border: 1px solid red;
+    }
+
+    .redes {
+        width: 40px; /* Tamaño fijo para las imágenes */
+        height: 40px; /* Proporción uniforme */
+        object-fit: contain; /* Ajusta la imagen sin deformarla */
+    }
+
+    .welcome {
+        position: absolute;
+        right: 250%;
+        font-size: 45px;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: center;
+        width: 62%;
+        border: 1px solid red;
+        top: 10%;
+
+    }
+
+  }
+  

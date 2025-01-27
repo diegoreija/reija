@@ -7,6 +7,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    --colorRedTeam: #e90909;
+    --colorBlueTeam: #091fe9;
 }
 
 /* Header section */
@@ -15,6 +17,52 @@ body {
     background-color: #212121;
 }
 
+
+/* From Uiverse.io by rraushan1205 */ 
+/* === removing default button style ===*/
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(134, 21, 21, 0.6);
+    --animation-color: var(--colorRedTeam);
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0px 12px var(--animation-color))
+  }
+
+
+  
 .description_me {
     position: absolute;
     width: 35%;
@@ -149,11 +197,12 @@ header nav .cabecera {
 
 .cabecera.active{
     background: #707070;
+    background: var(--colorRedTeam);
     border-radius: 2px;
 }
 
 .cabecera:hover{
-    background: #707070;
+    background: var(--colorRedTeam);
     border-radius: 2px;
 }
 
@@ -179,7 +228,7 @@ header nav .cabecera {
         width: 60%; /* Ajusta según el contenido */
         height: 6%; /* Ajusta según las imágenes */
         left:  7%;
-        top: 77%;
+        top: 80%;
         display: flex;
         gap: 8px; /* Espacio entre las imágenes */
     }
@@ -196,10 +245,15 @@ header nav .cabecera {
         word-wrap: break-word;
         white-space: normal;
         text-align: center;
-        width: 85%;
+        width: 100%;
         top: 10%;
         left: 5%;
+        border: 1px solid red;
     }
+
+    .button {
+        font-size: 40px;
+      }
 
 }
                 /* 767.98px*/

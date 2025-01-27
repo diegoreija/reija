@@ -15,6 +15,29 @@
     font-size: 18px;
 }
 
+#yox2 {
+  width: 30%;
+  position: absolute;
+  width: 35%;
+  left: 8%;
+  top: 75%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(222, 222, 222, 0.759);
+  font-size: 18px;
+}
+
+#yox3 {
+  width: 30%;
+  position: absolute;
+  width: 35%;
+  left: 50%;
+  top: 75%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(222, 222, 222, 0.759);
+  font-size: 18px;
+}
+
+
 .card {
     width: 260px; /*modificar*/
     height: 354px;/*modificar*/
@@ -125,7 +148,7 @@
     }
 }
 
-#about-content #yo {
+#about-content .animation {
     animation: animateLeft 1.1s ease-out forwards;
 }
 

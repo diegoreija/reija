@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    --colorRedTeam: #e90909;
     --colorBlueTeam: #091fe9;
 }
 
@@ -83,7 +82,7 @@ body {
     gap: 10px; /* Espacio entre las imágenes */
     justify-content: center; /* Centra las imágenes horizontalmente */
     align-items: center; /* Centra las imágenes verticalmente */
-    transition: all 105s ease; /* Animación suave en el hover */
+    transition: all 5s ease; /* Animación suave en el hover */
 }
 
 .redes {
@@ -93,23 +92,23 @@ body {
 }
 
 .social_medias a:nth-child(1) img:hover {
-    filter: drop-shadow(0px 0px 12px rgb(248, 0, 136)); /* Sombra roja */
+    filter: drop-shadow(0 0px 5px /*rgb(248, 0, 136)*/rgb(255, 0, 0)); /* Sombra roja */
 }
 
 .social_medias a:nth-child(2) img:hover {
-    filter: drop-shadow(0px 0px 12px rgba(0, 255, 242, 0.8)); /* Sombra verde */
+    filter: drop-shadow(0 0px 5px /*rgba(0, 255, 242, 0.8)*/rgb(255, 0, 0)); /* Sombra verde */
 }
 
 .social_medias a:nth-child(3) img:hover {
-    filter: drop-shadow(0px 0px 12px rgb(255, 255, 255)); /* Sombra azul */
+    filter: drop-shadow(0 0px 5px /*rgb(255, 255, 255)*/rgba(255, 0, 0)); /* Sombra azul */
 }
 
 .social_medias a:nth-child(4) img:hover {
-    filter: drop-shadow(0px 0px 12px rgba(255, 51, 0, 0.8)); /* Sombra amarilla */
+    filter: drop-shadow(0 0px 5px /*rgba(255, 51, 0, 0.8)*/rgba(255, 0, 0)); /* Sombra amarilla */
 }
 
 .social_medias a:nth-child(5) img:hover {
-    filter: drop-shadow(0px 0px 12px rgba(0, 4, 255, 0.8)); /* Sombra naranja */
+    filter: drop-shadow(0 0px 5px /*rgba(0, 4, 255, 0.8)*/rgba(255, 0, 0)); /* Sombra naranja */
 }
 
 .enlaces {
@@ -228,7 +227,7 @@ header nav .cabecera {
         width: 60%; /* Ajusta según el contenido */
         height: 6%; /* Ajusta según las imágenes */
         left:  7%;
-        top: 80%;
+        top: 85%;
         display: flex;
         gap: 8px; /* Espacio entre las imágenes */
     }

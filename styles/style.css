@@ -77,7 +77,7 @@ body {
     width: auto; /* Ajusta según el contenido */
     height: auto; /* Ajusta según las imágenes */
     left: 10%;
-    top: 80%;
+    top: 83%;
     display: flex;
     gap: 10px; /* Espacio entre las imágenes */
     justify-content: center; /* Centra las imágenes horizontalmente */

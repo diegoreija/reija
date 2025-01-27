@@ -32,7 +32,7 @@ body {
   .button {
     --border-right: 6px;
     --text-stroke-color: rgba(134, 21, 21, 0.6);
-    --animation-color: var(--colorRedTeam);
+    --animation-color: #e90909;
     font-size: 60px;
     letter-spacing: 3px;
     text-decoration: none;
@@ -197,12 +197,12 @@ header nav .cabecera {
 
 .cabecera.active{
     background: #707070;
-    background: var(--colorRedTeam);
+    background: #e90909;
     border-radius: 2px;
 }
 
 .cabecera:hover{
-    background: var(--colorRedTeam);
+    background: #e90909;
     border-radius: 2px;
 }
 
@@ -248,7 +248,6 @@ header nav .cabecera {
         width: 100%;
         top: 10%;
         left: 5%;
-        border: 1px solid red;
     }
 
     .button {

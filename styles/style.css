@@ -214,7 +214,7 @@ header nav .cabecera {
         MEDIAS QUERRYS DESKTOP DEFAULT
 */
 
-@media (max-width: 575px) {
+@media (max-width: 390px) {
     /* Estilos más específicos */
 
 
@@ -222,7 +222,7 @@ header nav .cabecera {
         width: 85%;
         left: 7%;
         top: 30%;
-        font-size: 18px;
+        font-size: 16.5px;
         text-align: left;
     }
 
@@ -230,8 +230,8 @@ header nav .cabecera {
         position: absolute;
         width: 60%; /* Ajusta según el contenido */
         height: 6%; /* Ajusta según las imágenes */
-        margin-left:  7%;
-        top: 95%;
+        left:  7%;
+        top: 86%;
         display: flex;
         gap: 8px; /* Espacio entre las imágenes */
     }
@@ -282,7 +282,7 @@ header nav .cabecera {
         width: 30%; /* Ajusta según el contenido */
         height: 6%; /* Ajusta según las imágenes */
         left: 16%;
-        top: 80%;
+        top: 86%;
         gap: 8px; /* Espacio entre las imágenes */
     }
 

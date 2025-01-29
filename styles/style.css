@@ -78,6 +78,7 @@ body {
     height: auto; /* Ajusta según las imágenes */
     left: 10%;
     top: 86%;
+    border: 1px solid red;
     display: flex;
     gap: 10px; /* Espacio entre las imágenes */
     justify-content: center; /* Centra las imágenes horizontalmente */
@@ -214,7 +215,7 @@ header nav .cabecera {
         MEDIAS QUERRYS DESKTOP DEFAULT
 */
 
-@media (max-width: 390px) {
+@media (max-width: 391px) {
     /* Estilos más específicos */
 
 
@@ -227,18 +228,17 @@ header nav .cabecera {
     }
 
     .social_medias {
-        position: absolute;
-        width: 60%; /* Ajusta según el contenido */
-        height: 6%; /* Ajusta según las imágenes */
-        left:  7%;
+        border: 1px solid white;
+        width: auto !important;
+        height: auto !important; /* Ajusta según las imágenes */
+        left:  0%;
         top: 86%;
-        display: flex;
         gap: 8px; /* Espacio entre las imágenes */
     }
 
     .redes {
-        width: 30px; /* Tamaño fijo para las imágenes */
-        height: 30px; /* Proporción uniforme */
+        width: 10px; /* Tamaño fijo para las imágenes */
+        height: 10px; /* Proporción uniforme */
         object-fit: contain; /* Ajusta la imagen sin deformarla */
     }
 

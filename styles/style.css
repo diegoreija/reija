@@ -78,7 +78,6 @@ body {
     height: auto; /* Ajusta según las imágenes */
     left: 10%;
     top: 86%;
-    border: 1px solid red;
     display: flex;
     gap: 10px; /* Espacio entre las imágenes */
     justify-content: center; /* Centra las imágenes horizontalmente */
@@ -223,7 +222,7 @@ header nav .cabecera {
         width: 85%;
         left: 7%;
         top: 30%;
-        font-size: 16.5px;
+        font-size: 17.5px;
         text-align: left;
     }
 

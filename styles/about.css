@@ -30,7 +30,7 @@
   width: 30%;
   position: absolute;
   width: 35%;
-  left: 50%;
+  left: 53%;
   top: 75%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgba(222, 222, 222, 0.759);
@@ -170,6 +170,10 @@
 /*
         MEDIAS QUERRYS DESKTOP DEFAULT
 */
+
+@media screen and (max-width: 767.98px) {
+  
+}
 
 @media screen and (max-width: 574.98px) {
   /* Estilos más específicos */

@@ -209,56 +209,56 @@ header nav .cabecera {
     border-radius: 2px;
 }
 
+@media screen and (max-width: 999px){
+    
+    header{
+        padding-left: 50px;
+    }
+
+    .list .item .content{
+        left: 50px;
+    }
+
+    .content .title, .content .name{
+        font-size: 70px;
+    }
+
+    .content .des{
+        font-size: 16px;
+    }
+    .arrows button{
+        width: 120px;
+        height: 50px;
+    }
+    .btn {
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 690px){
+    header nav .cabecera {
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .list .item .content{
+        top: 40%;
+    }
+
+    .content .title, .content .name{
+        font-size: 45px;
+    }
+
+    .content .btn button{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
 
 /*
         MEDIAS QUERRYS DESKTOP DEFAULT
 */
-
-@media (max-width: 391px) {
-    /* Estilos más específicos */
-
-
-    .description_me {
-        width: 85%;
-        left: 8.5%;
-        top: 33%;
-        font-size: 16.5px;
-        text-align: left;
-    }
-
-    .social_medias {
-        border: 1px solid white;
-        width: auto !important;
-        height: auto !important; /* Ajusta según las imágenes */
-        left:  0%;
-        top: 86%;
-        gap: 8px; /* Espacio entre las imágenes */
-    }
-
-    .redes {
-        width: 10px; /* Tamaño fijo para las imágenes */
-        height: 10px; /* Proporción uniforme */
-        object-fit: contain; /* Ajusta la imagen sin deformarla */
-    }
-
-    .welcome {
-        position: absolute;
-        font-size: 40px;
-        word-wrap: break-word;
-        white-space: normal;
-        text-align: center;
-        width: 100%;
-        top: 10%;
-        left: 5%;
-    }
-
-    .button {
-        font-size: 40px;
-      }
-
-}
-                /* 767.98px*/
-@media (max-width: 768px) { 
+@media screen and (max-width: 768px) { 
     .welcome {
         position: absolute;
         font-size: 50px;
@@ -292,51 +292,56 @@ header nav .cabecera {
     }
 }
 
-@media screen and (max-width: 690px){
-    header nav .cabecera {
-        font-size: 14px;
-        margin-right: 0;
+
+@media screen and (max-width: 391px) {
+    /* Estilos más específicos */
+
+
+    .description_me {
+        width: 85%;
+        left: 7%;
+        top: 33%;
+        font-size: 16.5px;
+        text-align: left;
     }
 
-    .list .item .content{
-        top: 40%;
+    .social_medias {
+        border: 1px solid white;
+        width: 60%;
+        height: 6%; /* Ajusta según las imágenes */
+        left:  7%;
+        top: 86%;
+        gap: 8px; /* Espacio entre las imágenes */
     }
 
-    .content .title, .content .name{
-        font-size: 45px;
+    .redes {
+        width: 30px; /* Tamaño fijo para las imágenes */
+        height: 30px; /* Proporción uniforme */
+        object-fit: contain; /* Ajusta la imagen sin deformarla */
     }
 
-    .content .btn button{
-        padding: 10px 15px;
-        font-size: 14px;
+    .welcome {
+        position: absolute;
+        font-size: 40px;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: left;
+        width: 90%;
+        top: 10%;
+        left: 7%;
+        border: 1px solid white;
     }
+
+    .button {
+        font-size: 40px;
+      }
+
 }
+                /* 767.98px*/
 
-@media screen and (max-width: 999px){
-    
-    header{
-        padding-left: 50px;
-    }
 
-    .list .item .content{
-        left: 50px;
-    }
 
-    .content .title, .content .name{
-        font-size: 70px;
-    }
 
-    .content .des{
-        font-size: 16px;
-    }
-    .arrows button{
-        width: 120px;
-        height: 50px;
-    }
-    .btn {
-        top: 100%;
-    }
-}
 
 
  

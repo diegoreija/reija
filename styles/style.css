@@ -258,7 +258,7 @@ header nav .cabecera {
 /*
         MEDIAS QUERRYS DESKTOP DEFAULT
 */
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 767.98px) { 
     .welcome {
         position: absolute;
         font-size: 50px;
@@ -293,7 +293,7 @@ header nav .cabecera {
 }
 
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 574.98px) {
     /* Estilos más específicos */
 
 
@@ -306,7 +306,6 @@ header nav .cabecera {
     }
 
     .social_medias {
-        border: 1px solid white;
         width: 60%;
         height: 6%; /* Ajusta según las imágenes */
         left:  7%;
@@ -329,12 +328,11 @@ header nav .cabecera {
         width: 90%;
         top: 10%;
         left: 7%;
-        border: 1px solid white;
     }
 
     .button {
         font-size: 40px;
-      }
+    }
 
 }
                 /* 767.98px*/

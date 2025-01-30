@@ -474,7 +474,7 @@
     .cerfitications {
         position: fixed;
         width: 100%;
-        height: 97%;
+        height: 110%;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
@@ -482,10 +482,10 @@
     }
     
     .grey { filter: grayscale(100%);}
-    .cert2 {top: 209%;}
+    .cert2 {top: 220%;}
     .cert3 {height: 70%; top: 320%;}
-    .INE_CERT { width: 10%;}
-    .CNTGAL_CERT { width: 11%; height: 79%;}
+    .INE_CERT { width: 11%;}
+    .CNTGAL_CERT { width: 14%; height: 82%;}
     .OFFSEC_CERT { height: 100%; width: 15.5%; filter: grayscale(100%);}
     #segunda_fila { align-items: center;}
     

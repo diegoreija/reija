@@ -258,36 +258,39 @@ header nav .cabecera {
 /*
         MEDIAS QUERRYS DESKTOP DEFAULT
 */
-@media screen and (max-width: 767.98px) { 
+@media screen and (max-width: 768px) { 
     .welcome {
         position: absolute;
-        font-size: 50px;
-        width: 85%;
+        font-size: 70px;
+        width: 75%;
         top: 10%;
         left: 5%;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: left;
     }
 
-    .description {
+    .description_me {
         position: absolute;
-        width: 65%;
+        width: 47%;
         left: 5%;
         top: 29%;
-        font-size: 13px;
+        font-size: 22px;
         text-align: left;
     }
 
     .social_medias {
         position: absolute;
-        width: 30%; /* Ajusta según el contenido */
+        width: 35%; /* Ajusta según el contenido */
         height: 6%; /* Ajusta según las imágenes */
-        left: 16%;
+        left: 10%;
         top: 86%;
         gap: 8px; /* Espacio entre las imágenes */
     }
 
     .redes {
-        width: 35px; /* Tamaño fijo para las imágenes */
-        height: 35px; /* Proporción uniforme */
+        width: 40px; /* Tamaño fijo para las imágenes */
+        height: 40px; /* Proporción uniforme */
         object-fit: contain; /* Ajusta la imagen sin deformarla */
     }
 }

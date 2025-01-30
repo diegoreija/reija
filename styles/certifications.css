@@ -113,7 +113,7 @@
 .cert2 {top: 170%;}
 .cert3 {height: 45%; top: 240%;}
 .INE_CERT { width: 12%;}
-.CNTGAL_CERT { width: 16%; height: 90%;}
+.CNTGAL_CERT { width: 16%; height: 85%;}
 .OFFSEC_CERT { height: 100%; width: 15.5%; filter: grayscale(100%);}
 #segunda_fila { align-items: center;}
 
@@ -288,7 +288,7 @@
     transform: translateY(-50%);
     width: 400px;
     text-align: left;
-    color: #e90909;
+    color: #FFFFFF;
     display: none;
 }
 
@@ -299,7 +299,7 @@
 .content .title{
     font-size: 100px;
     text-transform: uppercase;
-    color: #e90909;
+    color: #FFFFFF;
     font-weight: bold;
     line-height: 1;
     opacity: 0;
@@ -439,6 +439,11 @@
 
 @media screen and (max-width: 574.98px) {
     
+    .carousel{
+        width: 100vw;
+        height: 100vh;
+        margin-top: -0px;
+    }
     
     .name {
         width: 375px;
@@ -480,7 +485,7 @@
     .cert2 {top: 209%;}
     .cert3 {height: 70%; top: 320%;}
     .INE_CERT { width: 10%;}
-    .CNTGAL_CERT { width: 13.5%; height: 90%;}
+    .CNTGAL_CERT { width: 11%; height: 79%;}
     .OFFSEC_CERT { height: 100%; width: 15.5%; filter: grayscale(100%);}
     #segunda_fila { align-items: center;}
     

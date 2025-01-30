@@ -70,7 +70,7 @@
     transform: translateY(-50%);
     width: 400px;
     text-align: left;
-    color: #fff;
+    color: #e90909;
     display: none;
 }
 
@@ -137,7 +137,7 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
-    border: 2px solid #fff;
+    border: 2px solid #e90909;
     border-radius: 15px;
 }
 
@@ -148,13 +148,13 @@
 .content .btn button:nth-child(2){
     background: transparent;
     color: #707070;
-    border: 2px solid #fff;
+    border: 2px solid #e90909;
     transition: 0.3s;
 }
 
 .content .btn button:nth-child(2):hover{
     background-color: #707070;
-    color: #fff;
+    color: #e90909;
     border-color: #707070;
 }
 
@@ -192,8 +192,8 @@
     width: 80px;
     height: 50px;
     border-radius: 20%;
-    background-color: #5a5a5a;
-    color: #fff;
+    background-color: #e90909;
+    color: #e90909;
     border: none;
     outline: none;
     font-size: 16px;
@@ -204,7 +204,7 @@
 }
 
 .arrows button:hover{
-    background: #fff;
+    background: #e90909;
     color: #000;
 }
 
@@ -288,7 +288,7 @@
     transform: translateY(-50%);
     width: 400px;
     text-align: left;
-    color: #fff;
+    color: #e90909;
     display: none;
 }
 
@@ -299,7 +299,7 @@
 .content .title{
     font-size: 100px;
     text-transform: uppercase;
-    color: #707070;
+    color: #e90909;
     font-weight: bold;
     line-height: 1;
     opacity: 0;
@@ -355,7 +355,8 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
-    border: 2px solid #fff;
+    border: 2px solid #e90909;
+    background-color: #e90909;
     border-radius: 15px;
 }
 
@@ -365,14 +366,14 @@
 
 .content .btn button:nth-child(2){
     background: transparent;
-    color: #707070;
+    color: #e90909;
     border: 2px solid #fff;
     transition: 0.3s;
 }
 
 .content .btn button:nth-child(2):hover{
     background-color: #707070;
-    color: #fff;
+    color: #e90909;
     border-color: #707070;
 }
 
@@ -441,7 +442,6 @@
     
     .name {
         width: 375px;
-        border: 1px solid lightblue;
     }
 
     .content .name{
@@ -480,7 +480,7 @@
     .cert2 {top: 209%;}
     .cert3 {height: 70%; top: 320%;}
     .INE_CERT { width: 10%;}
-    .CNTGAL_CERT { width: 16%; height: 90%;}
+    .CNTGAL_CERT { width: 13.5%; height: 90%;}
     .OFFSEC_CERT { height: 100%; width: 15.5%; filter: grayscale(100%);}
     #segunda_fila { align-items: center;}
     
@@ -492,7 +492,7 @@
     .arrows{
         position: absolute;
         top: 90%;
-        right: 52%;
+        right: 65%;
         z-index: 100;
         width: 350px;
         max-width: 30%;
@@ -500,4 +500,8 @@
         gap: 20px;
         align-items: center;
     }
+
+
+
+
 }

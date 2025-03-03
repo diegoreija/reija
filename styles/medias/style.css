@@ -64,6 +64,7 @@
         height: 60%;
         left: 69%;
         top: 20%;
+        border: 1px solid blue;
     }
     
     .description_about_text {
@@ -71,6 +72,7 @@
         left: 5%;
         font-size: 21px;
         width: 90%;
+        border: 1px solid red;
     }
 
     #who, #part2, #part3, #part4 { top: 0%; }

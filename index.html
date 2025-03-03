@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/about.css">
-    <link rel="stylesheet" href="./styles/certifications.css">
-    <link rel="stylesheet" href="./styles/contact_me.css">
-
+    <link rel="stylesheet" href="style.css">
+    <!-- MEDIA QUERIES-->
+     <link rel="stylesheet" href="styles/medias/style.css">
+    <title>ReijaTech</title>
 </head>
 <body>
+    
     <header>
         <nav>
-            <a href="" class="active cabecera" id="home-link">Home</a>
-            <a href="" class="cabecera" id="about-link">About</a>
-            <a href="" class="cabecera" id="certificates-link">Certificates</a>
-            <a href="" class="cabecera" id="contact-link">Contact</a>
+            <a href="#" class="active cabecera" id="home-link">Home</a>
+            <a href="#" class="cabecera" id="about-link">About</a>
+            <a href="#" class="cabecera" id="certificates-link">Certificates</a>
+            <a href="#" class="cabecera" id="contact-link">Contact</a>
         </nav>
-    </header>
-        
-
     </header>
 
     <div id="home-content">
-        <h1 class="welcome">Welcome, Im <button class="button" data-text="Awesome">
-                                            <span class="actual-text">Diego Reija</span>
-                                            <span aria-hidden="true" class="hover-text">Diego Reija</span>
-                                        </button>
+        <h1 class="welcome">Welcome, Im 
+            <button class="button" data-text="Awesome">
+                <span class="actual-text">Diego Reija</span>
+                <span aria-hidden="true" class="hover-text">Diego Reija</span>
+            </button>
         </h1>
         <p class="description_me">
             Hi there! I'm Diego, a passionate professional in cybersecurity,
@@ -61,142 +59,166 @@
             </a>
         </div>
     </div>
+
     <div id="about-content" style="display: none;">
-        <div class="description animation" id="yo">
-            I am not one of those who brag about their 
-            achievements; I prefer to let my work speak 
-            for me. Even so, I am clear that my goal is 
-            to become the best in cybersecurity, not to 
-            brag, but because I really love what I do. <br><br>
-            Of course, my perfectionism sometimes works 
-            against me: if something doesn't turn out 
-            perfect, I feel like everything is falling 
-            apart, even though I know it's just part of 
-            learning.
+        <h3 data-content="who">Philosophy and Mentality</h3>
+        <div class="about-text" id="who">
+            <p class="description_about_text">
+                "Efficiency and perfection. Every line of code, every decision,
+                every project I undertake follows this premise. I don't seek to
+                do enough, but the best."
+            </p>
+            <br>
+            <p class="description_about_text">
+                My approach has always been clear: optimize, polish, refine. 
+                I am not a conformist. The idea of ​​leaving something half-done
+                is as foreign to me as it is unacceptable. Every day is an
+                opportunity to improve, to learn something new, to challenge 
+                my own limits. Being good at something is not enough; my goal
+                is to be the best.
+            </p>
+            <br>
+            <p class="description_about_text">
+                Perfectionism has been both my driving force and my challenge.
+                It drives me to reach levels of precision and excellence, but
+                it also forces me to know how and when to stop. Over time, I 
+                have learned that true mastery is not only in flawless execution,
+                but in the ability to evolve without getting caught up in obsession
+                with detail.
+            </p>
         </div>
-        <div class="description animation" id="yox2">
-            I've always been someone who enjoys challenges, especially 
-            those that push me out of my comfort zone. <br>
-            I believe the best lessons come from mistakes (even though I
-            can't stand failing—ironic, right?). I'm obsessed with the 
-            idea of learning something new every day, whether it's mastering
-            a technology or figuring out how to improve at what I do
+        <hr>
+        <h3 data-content="journey">Origin and Career</h3>
+        <div class="about-text" id="journey">
+            <p class="description_about_text">
+                Technology was not a choice; it was a natural path. 
+                Since I was a child, my curiosity led me to explore 
+                the hidden codes of video games, to discover vulnerabilities 
+                in systems and to understand that, in this digital world, 
+                everything is moldable.
+            </p>
+            <br>
+            <p class="description_about_text">
+                My first formal steps in computing began with the intermediate
+                degree in Microcomputer Systems and Networks. It was in that 
+                environment that I discovered cybersecurity and its infinite 
+                complexity. What others saw as a set of rules, I understood as 
+                a constant challenge, a game of strategy where every decision 
+                counts.
+            </p>
+            <br>
+            <p class="description_about_text">
+                Currently, I am on the path to the advanced cycle of Network 
+                Computer Systems Administration, with the goal of specializing 
+                in Cybersecurity. 
+                It is not just a degree, it is a commitment to a career that demands 
+                adaptability, creativity and, above all, a hacker mentality – in the 
+                purest sense of the term: question, understand and improve.
+            </p>
         </div>
-        <div class="description animation" id="yox3">
-            I don’t like to boast about my achievements, but I’m constantly
-            striving to be the best in everything related to cybersecurity. <br>
-            My ultimate goal? To be recognized as 'the best in the world,' but 
-            without ever bragging about it. Oh, and I’m a bit of a perfectionist—if
-            something doesn’t turn out exactly how I envision it, I feel like 
-            everything’s spiraling downhill
-        </div>    
-        <div class="card" id="card">
-            <div class="content">
-              <span>FOTO 1</span>
+        <hr>
+        <h3 data-content="skills">Cybersecurity Focus</h3>
+        <div class="about-text" id="skills">
+            <p class="description_about_text">
+                What got me hooked on this field was not the idea of ​​protecting systems, 
+                but the fact that we are never really safe. There is always a vulnerability, 
+                a backdoor, a human oversight that can be exploited. That makes this world 
+                so challenging and fascinating.
+            </p>
+            <br>
+            <p class="description_about_text">
+                I have worked with HTB machines, explored tools on GitHub, and learned that 
+                the best way to understand security is to think like an attacker. 
+                Every system, every network, every application has its Achilles heel. 
+                Identifying it before someone with malicious intent does is what makes the 
+                difference.
+            </p>
+            <br>
+            <p class="description_about_text">
+                My goal is to master this field. Not just be competent, but become a reference. 
+                Not by public recognition, but by the professional respect of those who 
+                understand the true depth of this world.
+            </p>
+        </div>
+        <hr>
+        <h3 data-content="experience">Aspirations and Future</h3>
+        <div class="about-text" id="experience">
+            <p class="description_about_text">
+                In five years, I see myself consolidated in cybersecurity, accumulating 
+                certifications such as CompTIA Pentest+, OSCP, GCFA and many more. I 
+                imagine myself working in a multinational or in a government agency, 
+                leading teams, developing strategies and making a difference in the 
+                protection of data and systems.
+            </p>
+            <p class="description_about_text">
+                But beyond professional success, what I really want is to know that 
+                I am on the right path, that I am moving forward every day and that 
+                each challenge overcome is one more step towards my goal: to be the 
+                best at what I do.
+            </p>
+        </div>
+        <hr>
+        <h3 data-content="hobbies">Values ​​and Philosophy of Life</h3>
+        <div class="about-text" id="hobbies">
+            <p class="description_about_text">
+                Respect, commitment, excellence. In a work team, the essential thing 
+                is communication and trust. There is no room for egos or insecurities. 
+                The best ideas arise from collaboration, constructive debate and a 
+                genuine desire to improve.
+            </p>
+        </div>
+        <hr>
+        <h3 data-content="future">Conclusion</h3>
+        <div class="about-text" id="future">
+            <p class="description_about_text">
+                This is not just a summary of my profile. It is my statement of intent. 
+                I am not here to follow trends, nor to settle for what is easy. 
+                I am here to make my mark, to learn without limits and to show that, 
+                in a world where cybersecurity is key, being the best is not an option, 
+                it is a necessity.
+            </p>
+        </div>
+        <hr>
+    
+
+        <div id="slide-menu">
+            <div id="menu-header">
+                <div id="close-menu"></div>
             </div>
-          </div>
+            <div id="menu-content">
+                
+            </div>
+
+        </div>
+        
     </div>
+
     <div id="certificates-content" style="display: none;">
-        <div class="carousel">
-            <div class="list">
-                <div class="item" style="background-image: url(butterfly1.jpeg);">
-                    <div class="content">
-                        <div class="name">EAGLE</div>
-                        <div class="des"></div>
-                        <div class="btn">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
+        <hr>
+        <h3 class="certificaciones">COMPTIA Pentest+</h3>
+        <hr>
+        <h3 class="certificaciones">GCFA</h3>
+        <hr>
+        <h3 class="certificaciones">Who am I?</h3>
+        <hr>
+        <h3 class="certificaciones">Who am I?</h3>
+        <hr>
+        <h3 class="certificaciones">Who am I?</h3>
+        <hr>
+        <h3 class="certificaciones">Who am I?</h3>
+        <hr>
 
-                <div class="item" style="background-image: url(./imagenes/CERTIFICATIONS/LogosCertifications/INESecurity.webp);">
-                    <div class="content">
-                        <div class="name">INE SECURITY</div>
-                        <div class="cerfitications">
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ejpt.webp" class="INE_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ECPPT.webp" class="INE_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/EMAPT.webp" class="INE_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/EWPT.webp" class="INE_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/EWPTX.webp" class="INE_CERT grey">
-                        </div>
-                        <div class="cerfitications cert2">
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ECIR.webp" class="INE_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ECDFP.webp" class="INE_CERT grey"> 
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/EDA.webp" class="INE_CERT grey"> 
-                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ECTHP.webp" class="INE_CERT grey">
-                        </div>
-                        <div class="cerfitications cert3">
-                        </div>
-                        <div class="btn">
-                            <button>See More</button>
-                        </div> 
-                    </div>
-                </div>
-
-                <div class="item" style="background-image: url(./imagenes/CERTIFICATIONS/LogosCertifications/OFFSEC.jpg);">
-                    <div class="content">
-                        <div class="name">OFFSEC</div>
-                        <div class="cerfitications">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/oscp.png" class="OFFSEC_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/oswe.png" class="OFFSEC_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/osmr.svg" class="OFFSEC_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/osda.svg" class="OFFSEC_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSEP.svg" class="OFFSEC_CERT grey">
-                        </div>
-                        <div class="cerfitications cert2" id="segunda_fila">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSWP.svg" class="OFFSEC_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSWA.svg" class="OFFSEC_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSTH.svg" class="OFFSEC_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSRI.svg" class="OFFSEC_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSCP+.svg" class="OFFSEC_CERT grey">
-                        </div>
-                        <div class="cerfitications cert3">
-                        </div>
-                        <div class="btn">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item" style="background-image: url(./imagenes/CERTIFICATIONS/LogosCertifications/CNTGAL-zZLT1ELod-transformed.jpeg);">
-                    <div class="content">
-                        <div class="name">CNTGAL</div>
-                        <div class="cerfitications">                            
-                            <img src="./imagenes/CERTIFICATIONS/CNTGAL/COMPTIA-PENTEST+.webp" class="CNTGAL_CERT">
-                            <img src="./imagenes/CERTIFICATIONS/CNTGAL/CHFI.png" class="CNTGAL_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/CNTGAL/CSSLP.webp" class="CNTGAL_CERT grey">
-                            <img src="./imagenes/CERTIFICATIONS/CNTGAL/cism-logo.png" class="CNTGAL_CERT grey">
-
-                        </div>
-                        <div class="btn">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
+        <div id="slide-menu">
+            <div id="menu-header">
+                <div id="close-menu"></div>
             </div>
         </div>
-        <div class="arrows">
-            <button class="prev"><</button>
-            <button class="next">></button>
-        </div>
-    </div>
-    <div class="dots" id="contact-content" style="display: none;">
-        <div class="form-container">
-            <form class="form">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input required="" name="email" id="email" type="text">
-                </div>
-                <div class="form-group">
-                    <label for="textarea">How Can We Help You?</label>
-                    <textarea required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
-                </div>
-                <button type="submit" class="form-submit-btn">Submit</button>
-            </form>
-        </div>
+        <div id="menu-content"></div>
     </div>
 
-    <script src="./scripts/script.js"></script>
-    <script src="./scripts/headers.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/headers.js"></script>
+    <script src="/scripts/about.js"></script>
+    <script src="/scripts/certi.js"></script>
 </body>
 </html>

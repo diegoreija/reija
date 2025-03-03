@@ -55,11 +55,10 @@
     /***************************************************/
     
     #about-content {
-        position: absolute;
+        position: fixed;
         padding-top: 0%; /* Empuja todo el contenido hacia abajo */
         display: flex;  
         flex-direction: column; /* Asegura que los <hr> se apilen correctamente */        
-        border: 1px solid rgb(0, 13, 255);
         align-items: end;
         width: 30%;
         height: 60%;
@@ -67,9 +66,21 @@
         top: 20%;
     }
     
-    .about-text {
-        left: 0%;
+    .description_about_text {
+        position: absolute;
+        left: 5%;
+        font-size: 21px;
+        width: 90%;
     }
+
+    #who, #part2, #part3, #part4 { top: 0%; }
+
+    #who2 { top: 17%; }
+    #part2b, #part3b { top: 22%;}
+    #part4b { top: 26%;}
+    #who3 { top: 50%; }
+    #part2c, #part3c { top: 50%;}
+
 
 
     #about-content hr {
@@ -126,6 +137,11 @@
         left: 30%;
     }
     
+
+
+    
+
+
     
     /***************************************************/
     /*             CERTIFICATIONS PAGES                */

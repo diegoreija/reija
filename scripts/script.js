@@ -41,3 +41,15 @@ function showSlider(type) {
     }, timeRunning)
 
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const someElement = document.getElementById('some-element-id');
+
+    if (someElement) {
+        someElement.onclick = function() {
+            // Your code here
+        };
+    } else {
+        console.error('Element with ID "some-element-id" is missing in the DOM.');
+    }
+});

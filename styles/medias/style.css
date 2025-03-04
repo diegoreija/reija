@@ -4,6 +4,66 @@
 /*                  MEDIA QUERIES                      */
 /*******************************************************/
 
+@media (min-width: 576px) {
+
+    /***************************************************/
+    /*                    HOME PAGES                   */
+    /***************************************************/
+
+    h1 {
+        left: 6%;
+        top: 16.5%;
+        font-size: 45px;
+     
+    }
+    
+    .button {
+        font-size: 45px;
+        top: 25%;
+        left: 6%;
+    }
+    
+    .description_me {
+        width: 45%;
+        left: 6%;
+        top: 38%;
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) {
+    /***************************************************/
+    /*                    HOME PAGES                   */
+    /***************************************************/
+
+    h1 {
+        left: 6%;
+        top: 16.5%;
+        font-size: 60px;
+     
+    }
+    
+    .button {
+        font-size: 60px;
+        top: 25%;
+        left: 6%;
+    }
+    
+    .description_me {
+        width: 45%;
+        left: 6%;
+        top: 42%;
+        font-size: 17px;
+    }
+
+
+
+}
+
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 
@@ -28,15 +88,15 @@
     
     .button {
         font-size: 75px;
-        top: 15%;
-        left: 32%;
+        top: 28%;
+        left: 6%;
     }
     
     .description_me {
         width: 45%;
         left: 6%;
-        top: 36%;
-        font-size: 20px;
+        top: 46%;
+        font-size: 19px;
     }
     
     .social_medias {
@@ -67,12 +127,11 @@
         border: 1px solid blue;
     }
     
+
     .description_about_text {
         position: absolute;
-        left: 5%;
         font-size: 21px;
-        width: 90%;
-        border: 1px solid red;
+        width: 100%;
     }
 
     #who, #part2, #part3, #part4 { top: 0%; }
@@ -180,5 +239,29 @@
     
     /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {  
+
+    /***************************************************/
+    /*                    HOME PAGES                   */
+    /***************************************************/
+    
+    h1 {
+        left: 6%;
+        top: 16.5%;
+        font-size: 75px;
+     
+    }
+    
+    .button {
+        font-size: 75px;
+        top: 15%;
+        left: 29.25%;
+    }
+    
+    .description_me {
+        width: 35%;
+        left: 6%;
+        top: 36%;
+        font-size: 22px;
+    }
 
 }

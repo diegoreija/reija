@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Diego Reija</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="sidebar">
+                <button id="close-sidebar">✖</button> <!-- Botón de cierre -->
+                <nav>
+                    <a href="#" class="nav-link" data-target="home-content">Home</a>
+                    <a href="#" class="nav-link" data-target="about-content">About</a>
+                    <a href="#" class="nav-link" data-target="certificates-content">Certificates</a>
+                    <a href="#" class="nav-link" data-target="contact-content">Contact</a>
+                </nav>
+            </div>
+            
+        </nav>
+    </header>    
+    <div class="contenido">
+        <div id="home-content" class="section-content">
+            <div class="part-1">
+                <h1 class="welcome">WELCOME, IM </h1>
+            </div>
+            <div class="part-2">
+                <button class="button" data-text="Awesome">
+                    <span class="actual-text">Diego Reija</span>
+                    <span aria-hidden="true" class="hover-text">Diego Reija</span>
+                </button>
+            </div>
+            <div class="part-3">
+                <p class="description_me">
+                    Hi there! I'm Diego, a passionate professional in cybersecurity,
+                    ethical hacking, and digital forensics. I specialize in developing
+                    innovative tools and researching solutions to strengthen digital
+                    security in an ever-evolving world.<br><br>
+                    With certifications to back up
+                    my expertise and dedication to excellence, this page showcases my
+                    achievements, certifications, and featured projects. Ready to dive
+                    into my work and passion?<br><br>
+                    
+                    Explore and learn more!
+                </p>
+            </div>
+            <div class="part-4">
+                <a href="https://www.instagram.com/diegoreija_/" target="_blank" rel="noopener noreferrer" class="enlaces">
+                    <img src="./pictures/REDES/instagram_red.png" class="redes">
+                </a>
+                <a href="" class="enlaces" target="_blank" rel="noopener noreferrer">
+                    <img src="./pictures/REDES/tiktok_red.png" class="redes">
+                </a>
+                <a href="https://x.com/diegoreija_" target="_blank" rel="noopener noreferrer" class="enlaces">
+                    <img src="./pictures/REDES/twitter_red_2.png" class="redes">
+                </a>
+                <a href="https://github.com/diegoreija" target="_blank" rel="noopener noreferrer" class="enlaces">
+                    <img src="./pictures/REDES/github2.png" class="redes">            
+                </a>
+                <a href="https://www.linkedin.com/in/diego-reija-2a5a6328b/" target="_blank" rel="noopener noreferrer" class="enlaces">
+                    <img src="./pictures/REDES/likedin_red.png" class="redes">
+                </a>
+                <a href="https://open.spotify.com/user/31jjxfx5gexwkncp3gvjigyqmt7y" target="_blank" rel="noopener noreferrer" class="enlaces">
+                    <img src="./pictures/REDES/spoty.png" class="redes">
+                </a>
+            </div>
+        </div>
+        <div id="about-content" class="section-content">
+            <div class="items item-1">
+                <div class="container_about">
+                    <div  class="subitems item-1"><h5 data-content="part-1">Philosophy and Mentality</h5></div>
+                    <hr>
+                    <div class="subitems item-2"><h5 data-content="part-2">Origin and Career</h5></div>                    
+                    <hr>
+                    <div class="subitems item-3"><h5 data-content="part-3">Cybersecurity Focus</h5></div>
+                    <hr>
+                    <div class="subitems item-4"><h5 data-content="part-4">Aspirations and Future</h5></div>
+                    <hr>
+                    <div class="subitems item-5"><h5 data-content="part-5">Values ​​and Philosophy of Life</h5></div>
+                </div>
+            </div>
+            <div class="items item-2"></div>
+            <div class="items item-3"></div>
+            <div id="slide-menu">
+                <div id="menu-header">
+                    <div id="close-menu"></div>
+                </div>
+                <div id="menu-content">ksdfiodshfoidshnfdosi</div>
+            </div>
+        </div>
+        <div id="certificates-content" class="section-content">
+            <div class="items item-2">
+                <div class="container_certification">
+                    <div class="card-container">
+                        <div class="card">
+                        <div class="front-content">
+                          <p>GCFA</p>
+                        </div>
+                        <div class="content">
+                          <p class="heading">Card Hover</p>
+                          <p>
+                            Certificado de Analista Forense Digital
+                          </p>
+                        </div>
+                      </div>
+                      </div>
+                </div>
+            </div>
+            <div class="items item-2"></div>
+            <div class="items item-3"></div>
+
+        </div>
+        <div id="contact-content" class="section-content"></div>        
+    </div>
+<script src="/scripts/script.js"></script>
+</body>
+</html>

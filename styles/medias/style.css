@@ -1,0 +1,182 @@
+
+
+/*******************************************************/
+/*                  MEDIA QUERIES                      */
+/*******************************************************/
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    /***************************************************/
+    /*                    CABECERA                     */
+    /***************************************************/
+    
+    header{
+        padding-left: 50px;
+    }
+    
+    /***************************************************/
+    /*                    HOME PAGES                   */
+    /***************************************************/
+    
+    h1 {
+        left: 6%;
+        top: 16.5%;
+        font-size: 75px;
+     
+    }
+    
+    .button {
+        font-size: 75px;
+        top: 15%;
+        left: 32%;
+    }
+    
+    .description_me {
+        width: 45%;
+        left: 6%;
+        top: 36%;
+        font-size: 20px;
+    }
+    
+    .social_medias {
+        width: 50%;
+        height: 10%; /* Ajusta según las imágenes */
+        gap: 25px; /* Espacio entre las imágenes */
+    }
+        
+    .redes {
+        width: 55px; /* Tamaño fijo para las imágenes */
+        height: 55px; /* Proporción uniforme */
+        object-fit: contain; /* Ajusta la imagen sin deformarla */
+    }
+    /***************************************************/
+    /*                 ABOUT ME PAGES                  */
+    /***************************************************/
+    
+    #about-content {
+        position: fixed;
+        padding-top: 0%; /* Empuja todo el contenido hacia abajo */
+        display: flex;  
+        flex-direction: column; /* Asegura que los <hr> se apilen correctamente */        
+        align-items: end;
+        width: 30%;
+        height: 60%;
+        left: 69%;
+        top: 20%;
+    }
+    
+    .description_about_text {
+        position: absolute;
+        left: 5%;
+        font-size: 21px;
+        width: 90%;
+    }
+
+    #who, #part2, #part3, #part4 { top: 0%; }
+
+    #who2 { top: 17%; }
+    #part2b, #part3b { top: 22%;}
+    #part4b { top: 26%;}
+    #who3 { top: 50%; }
+    #part2c, #part3c { top: 50%;}
+
+
+
+    #about-content hr {
+        width: 80%;  /* Mantiene el ancho */
+        margin: 2% 0; /* Espaciado uniforme entre líneas */
+        border: none;
+        height: 1px;
+        left: 20%;
+        background-color: #ccc;
+    }
+    
+    hr {
+        display: block;
+        width: 0%;
+        top: 20%;
+        position: relative;
+    }
+    
+    h3 {
+        top: 20%;
+        left: 40%;
+        position: relative;
+        display: block;
+        font-size: 21px;
+        color: #fff;
+    }
+    
+    #slide-menu {
+        position: fixed;
+        top: 20%;
+        left: 0%;
+        width: 50%;
+        height: 100%;
+        color: white;
+        padding: 20px;
+        border-radius: 0px 15px 0 0;
+        transition: bottom 0.3s ease-in-out;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.07);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        overflow: hidden;
+    }
+        
+    #close-menu {
+        position: absolute;
+        color: #ffffff;
+        background-color: #000000;
+        border-radius: 5% 5% 5% 5%;
+        width: 0%;
+        height: 2%;
+        left: 30%;
+    }
+    
+
+
+    
+
+
+    
+    /***************************************************/
+    /*             CERTIFICATIONS PAGES                */
+    /***************************************************/
+    
+    
+    #certificates-content {
+        position: absolute;
+        padding-top: 0%; /* Empuja todo el contenido hacia abajo */
+        display: flex;  
+        flex-direction: column; /* Asegura que los <hr> se apilen correctamente */        
+        border: 1px solid rgb(0, 13, 255);
+        align-items: end;
+        width: 30%;
+        height: 60%;
+        left: 69%;
+        top: 20%;
+    }
+        
+    #certificates-content hr {
+        width: 80%;  /* Mantiene el ancho */
+        margin: 2% 0; /* Espaciado uniforme entre líneas */
+        border: none;            
+        height: 1px;
+        left: 20%;
+        background-color: #ccc;
+    }
+        
+    .certificaciones {
+        left: 20%;
+    }
+    
+}
+    
+    /* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  
+
+}

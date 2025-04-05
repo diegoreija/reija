@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/certifications.css">
+    <link rel="stylesheet" href="./styles/contact_me.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="" class="active cabecera" id="home-link">Home</a>
+            <a href="" class="cabecera" id="about-link">About</a>
+            <a href="" class="cabecera" id="certificates-link">Certificates</a>
+            <a href="" class="cabecera" id="contact-link">Contact</a>
+        </nav>
+    </header>
+        
+
+    </header>
+
+    <div id="home-content">
+        <h1 class="welcome">Welcome, Im <button class="button" data-text="Awesome">
+                                            <span class="actual-text">Diego Reija</span>
+                                            <span aria-hidden="true" class="hover-text">Diego Reija</span>
+                                        </button>
+        </h1>
+        <p class="description_me">
+            Hi there! I'm Diego, a passionate professional in cybersecurity,
+            ethical hacking, and digital forensics. I specialize in developing
+            innovative tools and researching solutions to strengthen digital
+            security in an ever-evolving world.<br>
+            With certifications to back up
+            my expertise and dedication to excellence, this page showcases my
+            achievements, certifications, and featured projects. Ready to dive
+            into my work and passion?<br>
+            
+            Explore and learn more!
+        </p>
+        <div class="social_medias">
+            <a href="https://www.instagram.com/diegoreija_/" target="_blank" rel="noopener noreferrer" class="enlaces">
+                <img src="./imagenes/REDES/instagram_red.png" class="redes">
+            </a>
+            <a href="" class="enlaces" target="_blank" rel="noopener noreferrer">
+                <img src="./imagenes/REDES/tiktok_red.png" class="redes">
+            </a>
+            <a href="https://x.com/diegoreija_" target="_blank" rel="noopener noreferrer" class="enlaces">
+                <img src="./imagenes/REDES/twitter_red_2.png" class="redes">
+            </a>
+            <a href="https://github.com/diegoreija" target="_blank" rel="noopener noreferrer" class="enlaces">
+                <img src="./imagenes/REDES/github2.png" class="redes">            
+            </a>
+            <a href="https://www.linkedin.com/in/diego-reija-2a5a6328b/" target="_blank" rel="noopener noreferrer" class="enlaces">
+                <img src="./imagenes/REDES/likedin_red.png" class="redes">
+            </a>
+            <a href="https://open.spotify.com/user/31jjxfx5gexwkncp3gvjigyqmt7y" target="_blank" rel="noopener noreferrer" class="enlaces">
+                <img src="./imagenes/REDES/spoty.png" class="redes">
+            </a>
+        </div>
+    </div>
+    <div id="about-content" style="display: none;">
+        <div class="description animation" id="yo">
+            I am not one of those who brag about their 
+            achievements; I prefer to let my work speak 
+            for me. Even so, I am clear that my goal is 
+            to become the best in cybersecurity, not to 
+            brag, but because I really love what I do. <br><br>
+            Of course, my perfectionism sometimes works 
+            against me: if something doesn't turn out 
+            perfect, I feel like everything is falling 
+            apart, even though I know it's just part of 
+            learning.
+        </div>
+        <div class="description animation" id="yox2">
+            I've always been someone who enjoys challenges, especially 
+            those that push me out of my comfort zone. <br>
+            I believe the best lessons come from mistakes (even though I
+            can't stand failing—ironic, right?). I'm obsessed with the 
+            idea of learning something new every day, whether it's mastering
+            a technology or figuring out how to improve at what I do
+        </div>
+        <div class="description animation" id="yox3">
+            I don’t like to boast about my achievements, but I’m constantly
+            striving to be the best in everything related to cybersecurity. <br>
+            My ultimate goal? To be recognized as 'the best in the world,' but 
+            without ever bragging about it. Oh, and I’m a bit of a perfectionist—if
+            something doesn’t turn out exactly how I envision it, I feel like 
+            everything’s spiraling downhill
+        </div>    
+        <div class="card" id="card">
+            <div class="content">
+              <span>FOTO 1</span>
+            </div>
+          </div>
+    </div>
+    <div id="certificates-content" style="display: none;">
+        <div class="carousel">
+            <div class="list">
+                <div class="item" style="background-image: url(butterfly1.jpeg);">
+                    <div class="content">
+                        <div class="name">EAGLE</div>
+                        <div class="des"></div>
+                        <div class="btn">
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(./imagenes/CERTIFICATIONS/LogosCertifications/CNTGAL-zZLT1ELod-transformed.jpeg);">
+                    <div class="content">
+                        <div class="name">CNTGAL</div>
+                        <div class="cerfitications">                            
+                            <img src="./imagenes/CERTIFICATIONS/CNTGAL/COMPTIA-PENTEST+.webp" class="CNTGAL_CERT">
+                            <img src="./imagenes/CERTIFICATIONS/CNTGAL/CHFI.png" class="CNTGAL_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/CNTGAL/CSSLP.webp" class="CNTGAL_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/CNTGAL/cism-logo.png" class="CNTGAL_CERT grey">
+
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(./imagenes/CERTIFICATIONS/LogosCertifications/INESecurity.webp);">
+                    <div class="content">
+                        <div class="name">INE SECURITY</div>
+                        <div class="cerfitications">
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ejpt.webp" class="INE_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ECPPT.webp" class="INE_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/EMAPT.webp" class="INE_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/EWPT.webp" class="INE_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/EWPTX.webp" class="INE_CERT grey">
+                        </div>
+                        <div class="cerfitications cert2">
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ECIR.webp" class="INE_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ECDFP.webp" class="INE_CERT grey"> 
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/EDA.webp" class="INE_CERT grey"> 
+                            <img src="./imagenes/CERTIFICATIONS/INESecurity/LOGOS/ECTHP.webp" class="INE_CERT grey">
+                        </div>
+                        <div class="cerfitications cert3">
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(./imagenes/CERTIFICATIONS/LogosCertifications/OFFSEC.jpg);">
+                    <div class="content">
+                        <div class="name">OFFSEC</div>
+                        <div class="cerfitications">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/oscp.png" class="OFFSEC_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/oswe.png" class="OFFSEC_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/osmr.svg" class="OFFSEC_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/osda.svg" class="OFFSEC_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSEP.svg" class="OFFSEC_CERT grey">
+                        </div>
+                        <div class="cerfitications cert2" id="segunda_fila">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSWP.svg" class="OFFSEC_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSWA.svg" class="OFFSEC_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSTH.svg" class="OFFSEC_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSRI.svg" class="OFFSEC_CERT grey">
+                            <img src="./imagenes/CERTIFICATIONS/OFFSEC/LOGOS/OSCP+.svg" class="OFFSEC_CERT grey">
+                        </div>
+                        <div class="cerfitications cert3">
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+        <div class="arrows">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+    </div>
+    <div class="dots" id="contact-content" style="display: none;">
+        <div class="form-container">
+            <form class="form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input required="" name="email" id="email" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="textarea">How Can We Help You?</label>
+                    <textarea required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
+                </div>
+                <button type="submit" class="form-submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/headers.js"></script>
+</body>
+</html>
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    --colorBlueTeam: #091fe9;
+}
+
+/* Header section */
+
+body {
+    background-color: #212121;
+}
+
+
+/* From Uiverse.io by rraushan1205 */ 
+/* === removing default button style ===*/
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(134, 21, 21, 0.6);
+    --animation-color: #e90909;
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0px 12px var(--animation-color))
+  }
+
+
+  
+.description_me {
+    position: absolute;
+    width: 35%;
+    left: 10%;
+    top: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(222, 222, 222, 0.759);
+    font-size: 21px;
+}
+
+.social_medias {
+    position: absolute;
+    width: auto; /* Ajusta según el contenido */
+    height: auto; /* Ajusta según las imágenes */
+    left: 10%;
+    top: 86%;
+    display: flex;
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+    transition: all 5s ease; /* Animación suave en el hover */
+}
+
+.redes {
+    width: 50px; /* Tamaño fijo para las imágenes */
+    height: 50px; /* Proporción uniforme */
+    object-fit: contain; /* Ajusta la imagen sin deformarla */
+}
+
+.social_medias a:nth-child(1) img:hover {
+    filter: drop-shadow(0 0px 5px /*rgb(248, 0, 136)*/rgb(255, 0, 0)); /* Sombra roja */
+}
+
+.social_medias a:nth-child(2) img:hover {
+    filter: drop-shadow(0 0px 5px /*rgba(0, 255, 242, 0.8)*/rgb(255, 0, 0)); /* Sombra verde */
+}
+
+.social_medias a:nth-child(3) img:hover {
+    filter: drop-shadow(0 0px 5px /*rgb(255, 255, 255)*/rgba(255, 0, 0)); /* Sombra azul */
+}
+
+.social_medias a:nth-child(4) img:hover {
+    filter: drop-shadow(0 0px 5px /*rgba(255, 51, 0, 0.8)*/rgba(255, 0, 0)); /* Sombra amarilla */
+}
+
+.social_medias a:nth-child(5) img:hover {
+    filter: drop-shadow(0 0px 5px /*rgba(0, 4, 255, 0.8)*/rgba(255, 0, 0)); /* Sombra naranja */
+}
+
+.social_medias a:nth-child(6) img:hover {
+    filter: drop-shadow(0 0px 5px /*rgba(0, 4, 255, 0.8)*/rgba(255, 0, 0)); /* Sombra naranja */
+}
+
+.enlaces {
+    text-decoration: none;
+}
+
+@keyframes animateLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        filter: blur(0);
+    }
+}
+
+@keyframes animateUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+#home-content h1 {
+    animation: animateLeft 1.1s ease-out forwards;
+}
+
+#home-content .description_me {
+    animation: animateLeft 1.3s ease-out forwards;
+}
+
+#home-content .social_medias {
+    animation: animateUp 1.6s ease-out forwards;
+}
+
+
+
+h1 {
+    position: absolute;
+    left: 9%;
+    top: 20%;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    unicode-bidi: isolate;
+    font-weight: bolder;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: unset;
+}
+
+
+
+header{
+    width: 100%; 
+    max-width: 100%;
+    padding-left: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 9999999;
+}
+
+header nav .cabecera {
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.cabecera.active{
+    background: #707070;
+    background: #e90909;
+    border-radius: 2px;
+}
+
+.cabecera:hover{
+    background: #e90909;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 999px){
+    
+    header{
+        padding-left: 50px;
+    }
+
+    .list .item .content{
+        left: 50px;
+    }
+
+    .content .title, .content .name{
+        font-size: 70px;
+    }
+
+    .content .des{
+        font-size: 16px;
+    }
+    .arrows button{
+        width: 120px;
+        height: 50px;
+    }
+    .btn {
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 690px){
+    header nav .cabecera {
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .list .item .content{
+        top: 40%;
+    }
+
+    .content .title, .content .name{
+        font-size: 45px;
+    }
+
+    .content .btn button{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+/*
+        MEDIAS QUERRYS DESKTOP DEFAULT
+*/
+@media screen and (max-width: 768px) { 
+    .welcome {
+        position: absolute;
+        font-size: 70px;
+        width: 75%;
+        top: 10%;
+        left: 5%;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: left;
+    }
+
+    .description_me {
+        position: absolute;
+        width: 47%;
+        left: 5%;
+        top: 29%;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .social_medias {
+        position: absolute;
+        width: 35%; /* Ajusta según el contenido */
+        height: 6%; /* Ajusta según las imágenes */
+        left: 10%;
+        top: 86%;
+        gap: 8px; /* Espacio entre las imágenes */
+    }
+
+    .redes {
+        width: 40px; /* Tamaño fijo para las imágenes */
+        height: 40px; /* Proporción uniforme */
+        object-fit: contain; /* Ajusta la imagen sin deformarla */
+    }
+}
+
+
+@media screen and (max-width: 574.98px) {
+    /* Estilos más específicos */
+
+
+    .description_me {
+        width: 85%;
+        left: 7%;
+        top: 33%;
+        font-size: 16.5px;
+        text-align: left;
+    }
+
+    .social_medias {
+        width: 60%;
+        height: 6%; /* Ajusta según las imágenes */
+        left:  7%;
+        top: 86%;
+        gap: 8px; /* Espacio entre las imágenes */
+    }
+
+    .redes {
+        width: 30px; /* Tamaño fijo para las imágenes */
+        height: 30px; /* Proporción uniforme */
+        object-fit: contain; /* Ajusta la imagen sin deformarla */
+    }
+
+    .welcome {
+        position: absolute;
+        font-size: 40px;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: left;
+        width: 90%;
+        top: 10%;
+        left: 7%;
+    }
+
+    .button {
+        font-size: 40px;
+    }
+
+}
+                /* 767.98px*/
+.form-container {
+    position: fixed;
+    width: 75%;
+    top: 25%;
+    left: 12.5%;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#414141, rgb(191, 191, 191)) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #717171;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #a2a1a3;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #a2a1a3;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 40%;
+    background: transparent;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+  
+.form-container {
+    position: fixed;
+    width: 75%;
+    top: 25%;
+    left: 12.5%;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#414141, rgb(191, 191, 191)) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #717171;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #a2a1a3;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #a2a1a3;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 40%;
+    background: transparent;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+  
+
+
+
+
+
+ 
+

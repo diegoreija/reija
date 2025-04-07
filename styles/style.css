@@ -306,6 +306,14 @@ hr {
     border-radius: 8px;
 }
 
+input {
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    color: var(--color10);
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
